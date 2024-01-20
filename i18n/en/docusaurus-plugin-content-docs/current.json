@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Emote Wizard": {
+    "message": "Emote Wizard",
+    "description": "The label for category Emote Wizard in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Avatar Tinker Vista": {
+    "message": "Avatar Tinker Vista",
+    "description": "The label for category Avatar Tinker Vista in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Quest Replacer": {
+    "message": "Quest Replacer",
+    "description": "The label for category Quest Replacer in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.NuguminTool": {
+    "message": "NuguminTool",
+    "description": "The label for category NuguminTool in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AdLib": {
+    "message": "AdLib",
+    "description": "The label for category AdLib in sidebar tutorialSidebar"
+  }
+}
