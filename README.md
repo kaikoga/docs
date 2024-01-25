@@ -39,3 +39,21 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### メモ
+
+インスペクタやヒエラルキーを単体でスクリーンショットを撮る時の幅は400
+
+```cs
+[MenuItem("Misc/LongContent")]
+static void ShowLongContentWindow()
+{
+    var window = EditorWindow.CreateWindow<Empty>();
+    window.titleContent = new GUIContent("Content");
+    window.minSize = new Vector2(400f, 600f);
+    window.maxSize = new Vector2(400f, 8000f);
+    window.Show();
+}
+```
+
+画像はRetinaで撮ると巨大すぎるのでRetinaで撮るの禁止

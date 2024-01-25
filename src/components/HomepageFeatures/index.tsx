@@ -4,49 +4,62 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  img: string;
+  image: string;
+  path: string,
   description: JSX.Element;
 };
 
 // あとでなんか書く
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Emote Wizard',
     image: require('@site/static/img/sstr16_120.png').default,
+    path: 'emotewizard',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Animation and Expression Editor for VRChat Avatar SDK3
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Avatar Tinker Vista',
     image: require('@site/static/img/sstr16_120.png').default,
+    path: 'ativ',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Small avatar tools for NDMF
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'QuestReplacer',
     image: require('@site/static/img/sstr16_120.png').default,
+    path: 'questreplacer',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Pseudo-non-destructive replace material and texture.
+      </>
+    ),
+  },
+  {
+    title: 'NuguminTool',
+    image: require('@site/static/img/sstr16_120.png').default,
+    path: 'modularizer',
+    description: (
+      <>
+        Create Modular Avatar prefabs from composed FBX asset.
       </>
     ),
   },
 ];
 
-function Feature({title, image, description}: FeatureItem) {
+function Feature({title, image, path, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={image} role="img" />
+        <a href={path}>
+          <img src={image} role="img"/>
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

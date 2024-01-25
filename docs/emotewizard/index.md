@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Emote Wizard
 
+![Emote Wizard](img/emote_wizard.png)
+
 ## これは何？
 
 VRChatのAvatar SDK3.0 用のアバターのセットアップを支援するツールです。
