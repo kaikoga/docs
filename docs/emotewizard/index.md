@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: img/emote_wizard.png
 ---
 
 # Emote Wizard
