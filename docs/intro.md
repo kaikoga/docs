@@ -2,36 +2,41 @@
 sidebar_position: 1
 ---
 
-# これはなに？
+# What's this?
 
-kaikogaが作ったいろんなツールのドキュメント置き場です。
+Documents for various tools by kaikoga (because there are too much)
 
-（ツールが増えすぎた上、複数を組み合わせて使うことが前提っぽくなってきているので、１つの場所にまとめることにしました。）
+# How to get
 
-# 入手方法
+## Install with VCC
 
-## VCCからインストール
+Preferred for VRChat users can use VCC.
+<a href="vcc://vpm/addRepo?url=https%3A%2F%2Fvpm.kaikoga.net%2Findex.json">Add vpm.kaikoga.net to VCC</a>
 
-VRChatユーザーはVCCを利用するのが簡単です。
-<a href="vcc://vpm/addRepo?url=https%3A%2F%2Fvpm.kaikoga.net%2Findex.json">VCC に vpm.kaikoga.net を追加する</a>
+Automatic updates are available with VCC. 
 
-VCC でインストールする場合、 VCC からアップデートを適用できます。
+URL: https://vpm.kaikoga.net/
 
-VPM置き場： https://vpm.kaikoga.net/
+Repo URL for VPM CLI and alt-VPM users: https://vpm.kaikoga.net/index.json
 
-## GitHubからインストール
+## Install from GitHub
 
-非VRChatユーザーはUnity標準のPackage Managerを利用してください。
+Non-VRChat users can use Unity's Package Manager.
 
-以下のURLを 「Window」 → 「Package Manager」 → 「+」 → 「Add package from git URL...」 するか、 manifest.json に追記してください。
+Either register URLs to  [ Window ] -> [ Package Manager ] → [ + ] → [ Add package from git URL... ] , or add entries to manifest.json.
 
 ### Emote Wizard
 
+- https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.1
+
 ```
-"net.kaikoga.emotewizard": "https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.0",
+"net.kaikoga.emotewizard": "https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.1",
 ```
 
 ### Avatar Tinker Vista + AdLib
+
+- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v0.2.0
+- https://github.com/kaikoga/AdLib-Unity.git#v0.1.0
 
 ```
 "net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v0.2.0",
@@ -40,28 +45,29 @@ VPM置き場： https://vpm.kaikoga.net/
 
 ### QuestReplacer
 
+- https://github.com/kaikoga/QuestReplacer-Unity.git?path=/QuestReplacer/Packages/net.kaikoga.questreplacer#v0.2.1
+
 ```
 "net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git?path=/QuestReplacer/Packages/net.kaikoga.questreplacer#v0.2.1",
 ```
 
 ### NuguminTool
 
+- https://github.com/kaikoga/Modularizer-Unity.git?path=/Modularizer/Packages/net.kaikoga.modularizer#v1.0.0
+
 ```
 "net.kaikoga.modularizer": "https://github.com/kaikoga/Modularizer-Unity.git?path=/Modularizer/Packages/net.kaikoga.modularizer#v1.0.0",
 ```
 
-## BOOTH からインストール（非推奨）
+## Get from BOOTH (not recommended)
 
 BOOTH https://kaikoga.booth.pm/
 
-BOOTHのパッケージは古いことがあります。
-安定版が出ていないツールはBOOTHに置かれていないこともあります。
+BOOTH packages may be either outdated, or not published yet for unstable tools.
 
-そこになければないですね。
+## Not so much Asked Questions
 
-## 質問コーナー
-
-- Q. KogapenやKogastatsのドキュメントは？
-  - A. ちょっと待って・・・
-- Q. MeshWeaverのドキュメントは？
-  - A. ジャンルが違うので、 https://kaikoga.github.io/MeshWeaver-unity/docs/ja/ を見てください。 
+- Q. Where's documents for Kogapen or Kogastats?
+  - A. Wait a minute...
+- Q. How about MeshWeaver?
+  - A. Refer https://kaikoga.github.io/MeshWeaver-unity/docs/ja/ (separate site because maintenance policy differs) 
