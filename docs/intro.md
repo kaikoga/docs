@@ -27,10 +27,10 @@ Either register URLs to  [ Window ] -> [ Package Manager ] → [ + ] → [ Add p
 
 ### Emote Wizard
 
-- https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.1
+- https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.2
 
 ```
-"net.kaikoga.emotewizard": "https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.1",
+"net.kaikoga.emotewizard": "https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.2",
 ```
 
 ### Avatar Tinker Vista + AdLib
