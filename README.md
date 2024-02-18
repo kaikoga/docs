@@ -57,3 +57,5 @@ static void ShowLongContentWindow()
 ```
 
 画像はRetinaで撮ると巨大すぎるのでRetinaで撮るの禁止
+
+VRChatに「UIを最適化」した状態で撮ること

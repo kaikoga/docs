@@ -6,7 +6,7 @@ sidebar_position: 0
 
 ![Inspector](img/emote_item_source.png)
 
-アバターのExpression Parameterに連動するアニメーションをここに登録します。
+VRChatアバターのExpression Parameterに連動するアニメーションをここに登録します。
 Expression ParameterはハンドサインやExpression Menuから変更されるため、ハンドサインやExpression Menuで動く表情や着せ替えを実装できます。
 
 アニメーションの内容は **Emote Sequence Source** または **Generic Emote Sequence Source** で設定します。

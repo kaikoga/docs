@@ -6,7 +6,7 @@ sidebar_position: 1000
 
 ![Inspector](img/expression_item_source.png)
 
-アバターにExpressions Menuを追加します。
+VRChatアバターにExpressions Menuを追加します。
  
 - `アイコン`: 生成されるメニューアイテムのアイコンです。
 - `パス`: メニューアイテムの生成先です。

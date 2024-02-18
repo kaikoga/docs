@@ -6,7 +6,7 @@ sidebar_position: 2000
 
 ![Inspector](img/parameter_source.png)
 
-アバターにExpression Parameterを追加します。
+VRChatアバターにExpression Parameterを追加します。
 
 - `名前`: パラメータ名です。
 - `種類`: パラメータの型を選択します。

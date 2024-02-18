@@ -2,12 +2,11 @@
 sidebar_position: 0
 ---
 
-# 全体的な概念
+# コンポーネント概要
 
 ## Emote Wizard Root
 
 Emote Wizardの全ての処理の起点となる、最初に作るコンポーネントです。
-
 
 ## Data Source
 

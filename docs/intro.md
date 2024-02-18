@@ -27,10 +27,10 @@ Either register URLs to  [ Window ] -> [ Package Manager ] → [ + ] → [ Add p
 
 ### Emote Wizard
 
-- https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.2
+- https://github.com/kaikoga/EmoteWizard-Unity.git#v0.100.0
 
 ```
-"net.kaikoga.emotewizard": "https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.2",
+"net.kaikoga.emotewizard": "https://github.com/kaikoga/EmoteWizard-Unity.git#v0.100.0",
 ```
 
 ### Avatar Tinker Vista + AdLib
@@ -53,10 +53,10 @@ Either register URLs to  [ Window ] -> [ Package Manager ] → [ + ] → [ Add p
 
 ### NuguminTool
 
-- https://github.com/kaikoga/Modularizer-Unity.git?path=/Modularizer/Packages/net.kaikoga.modularizer#v1.0.0
+- https://github.com/kaikoga/Modularizer-Unity.git#v1.1.0
 
 ```
-"net.kaikoga.modularizer": "https://github.com/kaikoga/Modularizer-Unity.git?path=/Modularizer/Packages/net.kaikoga.modularizer#v1.0.0",
+"net.kaikoga.modularizer": "https://github.com/kaikoga/Modularizer-Unity.git#v1.1.0",
 ```
 
 ## Get from BOOTH (not recommended)
