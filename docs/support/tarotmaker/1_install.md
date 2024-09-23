@@ -30,7 +30,7 @@ Modular Avatarを使用せずに組み込む場合、アバターのアセット
 * Modular Avatarを使用しない場合、アバターのFXレイヤー、ExpressionsMenu、ExpressionParameterは事前に作成しておく必要があります。
   いずれかが空である場合、組み込みは動作しません。
 * 「組み込み」ボタンを押した際、Tarot Makerが管理する既存の設定がアバターから削除されます。
-  Tarot Makerが管理するとみなされる設定は名前で識別され、 [内部仕様](4_deck) で定義されます。
+  Tarot Makerが管理するとみなされる設定は名前で識別され、 [内部仕様](4_deck.md) で定義されます。
 :::
 
 ## ステップ
