@@ -8,4 +8,4 @@ sidebar_position: 20
 
 `デフォルトのData Sourceを全て生成` や `空のData Sourceを追加` で生成したオブジェクトにあらかじめ追加されているユーティリティコンポーネントです。
 
-Wizard や Data Source オブジェクトを簡単に生成できます。
+WizardやData Sourceオブジェクトを簡単に生成できます。

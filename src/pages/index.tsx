@@ -26,7 +26,7 @@ function HomepageHeader() {
           <Link
             className={`button button--secondary button--lg ${styles.button}`}
             to="vcc://vpm/addRepo?url=https%3A%2F%2Fvpm.kaikoga.net%2Findex.json">
-            Add VPM Repo (VCC)
+            Add VPM Repo (ALCOM/VCC)
           </Link>
         </div>
       </div>

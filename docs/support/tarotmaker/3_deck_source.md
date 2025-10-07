@@ -7,7 +7,7 @@ sidebar_position: 20
 カードアセットについて説明します。
 
 :::info[INFO]
-※以下の方法でカードアセットを自作するには、 Tarot Maker フルセットが必要です。
+※以下の方法でカードアセットを自作するには、Tarot Makerフルセットが必要です。
 :::
 
 ## カードアセット | Deck Source Asset
@@ -60,7 +60,7 @@ sidebar_position: 20
 
 ![Inspector Deck Source Composed](img/deck_source_composed.png)
 
-既に Tarot Maker によって合成済みのカード画像を流用する場合、カードアセットの `Is Composed` をセットすることで選択が可能です。
+既にTarot Makerによって合成済みのカード画像を流用する場合、カードアセットの `Is Composed` をセットすることで選択が可能です。
 
 #### `カードサイズ` | `Card Size`
 

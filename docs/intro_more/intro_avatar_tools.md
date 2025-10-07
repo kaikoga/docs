@@ -1,66 +1,71 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # アバターツールについて
 
-以下のツールがアバターツールに該当します。
+vpm.kaikoga.netから入手できる以下のツールを組み合わせて、統一されたワークフローでVRChatおよびVRMアバターの破壊的非破壊改変を行うことができます。
 
-- Emote Wizard
 - Avatar Tinker Vista
+- Avatar Ranker Vista
+- Emote Wizard
 - QuestReplacer
 - NuguminTool
 
-## 具体的に、どんなワークフローを想定してるの？
+:::tip[TIPS]
+これらのツールは組み合わせて使うと大きな効果が得られるように設計されていますが、強い依存関係はありません。
+役割が被る既存のツールを使い慣れている場合は、そちらと組み合わせても良いです。
 
-BOOTHで購入したVRChat向け衣装アセットを着せ替えたアバターをPCに加えてQuestとVRMに出力しています。
+例えば、 [Module Creator](https://github.com/Tliks/ModuleCreator) はNuguminToolとほとんど同じことをします。
 
-こんなことをしています。
+ただし、NDMFでVRMを非破壊編集したいケースでは、Avatar Tinker Vistaは入れておいた方が良いです。\
+（VRMをVRMとして扱うために必要になります。）
+:::
 
-### VRChat PC向けアバターを作るまで
+## 役に立つ状況
 
-- NuguminToolでアバターを素体と衣装に分割する
-- 素体と衣装のPrefab Variantを作る
-- 素体のPrefab Variantに対してEmoteWizardを設定し、表情やエモートを設定する
-- 新しいシーンを作り、素体と衣装をModular Avatarで結合する
-  - 衣装のPrefab VariantはModular Avatarの設定を行う
-  - その際、衣装側の切り替えアニメーションはEmoteWizardで追加する
-- AvatarOptimizerで最適化する
-- 普通にアップロードする
+BOOTHのVRChat PC想定アバターを、変換結果を調整しながらQuest/VRM用に出力したい時に便利です。
 
-### それをQuest対応する
+## 使い方
 
-- 素体と衣装のPrefab Variantを作る
-- 新しいシーンを作り、素体と衣装をModular Avatarで結合する
-- QuestReplacerでマテリアルを差し替える
-- AvatarOptimizerで最適化されているはずなのでPhysBone以外は大丈夫だが、
-  PhysBoneはどうしようもないので、ATiV Delete All Physbonesまたは手動で削除する
-- 普通にアップロードする
+### Avatar Tinker Vista
 
-### ここからVRMに出力する
+主にVRChat→VRMのプラットフォーム変換を司る非破壊改変＋破壊的非破壊改変ユーティリティの寄せ集めです。
 
-- 素体と衣装のPrefab Variantを作る
-- 素体と衣装をVRMとして設定し直す
-- 新しいシーンを作り、素体と衣装をModular Avatarで結合する
-- QuestReplacerでマテリアルを差し替える
-- Manual Bake Avatarして普通にVRMエクスポートする
+NDMFにVRMを認識させるための機能も含まれています。
 
-### ここまでできたものに対し、VRChat向け衣装アセットを着せ替える
+### Avatar Tinker Vista - ApplyOnPlayHack
 
-- VRChatのPC版アバターはModular Avatarで普通に着せ替えてアップロードする
-- 衣装アセットのPrefab Variantを作り、PhysBoneを全部抜く
-- QuestReplacerでマテリアルを差し替えてQuestアップロードする
-- 衣装アセットのPrefab Variantを作り、SpringBoneを設定する
-- QuestReplacerでマテリアルを差し替えてVRM出力する
+NDMFのApply On PlayでVRMアバターをVRMアバターとしてビルドできない問題に対処するパッチです。
 
-## 質問コーナー
+### Avatar Ranker Vista
 
-- Q. わざわざ分割してから結合するの？
-  - A. 主に好みの問題ですが、いくつかの理由があります
-    - 衣装アセットを着せる際に素体のデフォルト衣装を毎回消すのが大変なのでそうしています
-    - 共通素体アバターのデフォルト衣装を移植することがあります
-    - デフォルト衣装と衣装アセットの扱いが一緒になるのが個人的に楽です
-- Q. Quest版でPhysBoneを全部抜くの？
-  - A. ボーン構成上Quest制限に納めるように残すのが難しそうでした
-- Q. VRM出力をしているようですが、アレとかコレに機能が足りないのでは？
-  - A. 鋭意開発中です
+アバターのパフォーマンスランクや、パフォーマンスランク以外を計算します。
+
+### Emote Wizard
+
+アバターのVRChat向け・VRM向けの表情設定を一括で行える非破壊改変ツールです。
+
+VRChat限定の機能になってしまいますが、衣装のON/OFFギミックなどにもある程度対応します。
+
+### QuestReplacer
+
+VRChat PC→VRChat MobileやVRChat→VRMのマテリアル変換を行う破壊的非破壊改変ツールです。
+
+### NuguminTool
+
+衣装着せ替え用にデフォルト衣装を着たアバターから素体だけのアバターを作成したり、衣装や髪型を抽出したりする破壊的非破壊改変ツールです。
+
+:::note[破壊的非破壊改変ってなんやねん]
+VRChatで広く普及しているNDMFでは、Apply on Playやアバタービルドの段階でアバターに対して改変を行う指示を、プレハブやコンポーネントに閉じた形式でアバターまたはその子孫に追加することを非破壊編集と呼びます。
+これらのアバター拡張は、プレハブやコンポーネントを削除することでアンインストールが完了し、中間アセットを生成することもありません。
+
+Avatar Tinker Vistaのワークフローはしばしば（変換後のアセットを手動調整できるように）変換後のアセットや設定アセットの生成を伴います。
+Avatar Tinker Vistaの設計思想上、これらの中間アセットは非破壊ではありません。
+Avatar Tinker Vistaは中間アセットの再生成はできますが、手動調整した内容は（Prefab Variantなどを利用しない限り）失われます。
+以上の理由から、Avatar Tinker Vista等はいわゆる非破壊改変ツールではありません。
+
+非破壊改変の設定データを破壊的に生成するという言い方はできます。
+また、ワークフローを工夫してAvatar Tinker Vistaを非破壊改変的に使うことができる場合もあるため、そのようなケースでは非破壊改変である、と言えるかもしれません。
+:::
+

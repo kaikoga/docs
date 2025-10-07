@@ -6,7 +6,7 @@ sidebar_position: 10
 
 ![Inspector](img/emote_wizard_root.png)
 
-ヒエラルキーを右クリック、またはメニューバーの `GameObject` → `Emote Wizard` で、ヒエラルキーに `Emote Wizard` が追加されます。
+ヒエラルキーを右クリック、またはメニューバーの `GameObject` → `Emote Wizard` → `Emote Wizard Root` で、ヒエラルキーに `Emote Wizard` が追加されます。
 Emote Wizardの各種設定やアバターへの反映は全てこのオブジェクトを起点として行います。
 
 - `Language`: 表示する言語を設定します。
@@ -78,8 +78,8 @@ NDMFからEmote Wizardを利用する場合、 `アセットを永続化` をオ
   ここが空の場合は `Avatar Descriptor` にセットされたAnimatorが以下のアニメーション編集用ボタンで使われます。
 - `全てを生成してアバターを更新する`: 全てのセットアップを実行します。
 - `編集`: アバターに含まれるアニメーションを編集するために、自動生成された編集用のAnimator Controllerを一時的に設定します。
-- `Gesture`: アニメーションを編集するために、 Animator に Gesture レイヤーのAnimator Controllerを一時的に設定します。
-- `FXを編集`: （同上） FX レイヤーのAnimator Controllerを一時的に設定します。
-- `Actionを編集`: （同上）Action レイヤーのAnimator Controllerを一時的に設定します。
+- `Gesture`: アニメーションを編集するために、AnimatorにGestureレイヤーのAnimator Controllerを一時的に設定します。
+- `FXを編集`: （同上）FXレイヤーのAnimator Controllerを一時的に設定します。
+- `Actionを編集`: （同上）ActionレイヤーのAnimator Controllerを一時的に設定します。
 - `編集用のAnimator Controllerを切り離す`: 上記のボタンで設定されたAnimator Controllerを取り除きます。
 

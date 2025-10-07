@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Avatar Tinker Vista
 
+![AvatarTinkerVista](img/ativ_ss.png)
+
 たまに役に立つ小さい単機能アバターツールの詰め合わせです。
 
 # 特徴
@@ -18,10 +20,22 @@ sidebar_position: 1
   - 長期的なサポートはありません
   - 依存ツールのアップデートで動かなくなる可能性はありますが、プロジェクトを壊すことはないようになっています
 
-# 収録ツールの使い方
-
-「Window」 → 「Avatar Tinker」 からウィンドウを開いてください。
-
-# 収録ndmfツールの使い方
+# 収録コンポーネント
 
 「Component」 → 「Avatar Tinker Vista」 でコンポーネントを追加してください。
+
+:::info[INFO]
+NDMFが存在する環境ではNDMFと連携するコンポーネントもあります。
+:::
+
+# 収録NDMFコンポーネントの使い方
+
+「Component」 → 「Avatar Tinker Vista」 でコンポーネントを追加してください。
+
+:::info[INFO]
+NDMFコンポーネントを利用するにはNDMFが必要です。
+:::
+
+# 収録ツールの使い方
+
+「Window」 → 「Avatar Tinker Vista」 からウィンドウを開いてください。

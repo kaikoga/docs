@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1472"
+   height="704"
+   viewBox="0 0 1472 704"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="Flowchart.svg"
+   inkscape:export-filename="Sign.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.72528813"
+     inkscape:cx="1007.8753"
+     inkscape:cy="215.77631"
+     inkscape:window-width="1458"
+     inkscape:window-height="937"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g3024"
+     showguides="false"
+     inkscape:lockguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid341"
+       spacingx="16"
+       spacingy="16"
+       empspacing="4"
+       originx="64"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-2"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-2-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-2-1"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-0"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-3-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-0-0"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-2-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-3-8"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-9"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-0-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-9-2"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-0-6-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-9-2-7"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-0-6-1-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-9-2-7-4"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-0-6-1-8-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-9-2-7-4-7"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow3-3-0-6-1-8-7-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="7"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3-4-9-2-7-4-7-2"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+  </defs>
+  <g
+     id="g3024"
+     style="display:inline"
+     transform="translate(64)"
+     inkscape:groupmode="layer">
+    <rect
+       style="font-variation-settings:'wght' 400;fill:#e5e5e5;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712"
+       width="192"
+       height="64"
+       x="576"
+       y="64"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="672"
+       y="96"
+       id="text3019"><tspan
+         sodipodi:role="line"
+         id="tspan3076"
+         x="672"
+         y="96"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke:none">アバターの</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3078"
+         x="672"
+         y="116"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke:none">改変は</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#e6ffcc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0"
+       width="192"
+       height="64"
+       x="384"
+       y="192"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="480"
+       y="224"
+       id="text3019-8"><tspan
+         sodipodi:role="line"
+         id="tspan1567">VRoid Studio</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1569">ベースで</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#e6ffcc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-2"
+       width="192"
+       height="64"
+       x="512"
+       y="320"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="608"
+       y="352"
+       id="text3019-8-5"><tspan
+         sodipodi:role="line"
+         id="tspan4264"
+         x="608"
+         y="352">出力したものを</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4266"
+         x="608"
+         y="372">Unityで調整したい！</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#e6ffcc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-2-9"
+       width="192"
+       height="64"
+       x="256"
+       y="320"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="352"
+       y="352"
+       id="text3019-8-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan6477"
+         x="352"
+         y="352">出力したまま</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6479"
+         x="352"
+         y="372">使いたい！</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#cce6ff;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8"
+       width="192"
+       height="64"
+       x="0"
+       y="192"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="96"
+       y="224"
+       id="text3019-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan3927"
+         x="96"
+         y="224">3Dモデリングソフトで</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3929"
+         x="96"
+         y="244">フルスクラッチしてる</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#cce6ff;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7"
+       width="192"
+       height="64"
+       x="0"
+       y="576"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="96"
+       y="608"
+       id="text3019-8-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan1436">A. 個別にセットアップ</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1438">するとよいです</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#e6ffcc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5"
+       width="192"
+       height="64"
+       x="256"
+       y="576"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="352"
+       y="608"
+       id="text3019-8-8-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan1571">B. XAvatarを</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1573">試しましょう</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffffbb;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4"
+       width="320"
+       height="64"
+       x="512"
+       y="576"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="672"
+       y="608"
+       id="text3019-8-8-9-8-7"><tspan
+         sodipodi:role="line"
+         id="tspan6459"
+         x="672"
+         y="608">C. Avatar Tinker Vista</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6461"
+         x="672"
+         y="628">へようこそ・・・</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffe6cc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0"
+       width="192"
+       height="64"
+       x="896.00006"
+       y="576"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="992.00006"
+       y="592"
+       id="text3019-8-8-9-8-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan6463"
+         x="992.00006"
+         y="592">D. VRC Quest Tools と</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6465"
+         x="992.00006"
+         y="612">NDMF VRM Exporter</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6467"
+         x="992.00006"
+         y="632">があるよ</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffcce5;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9"
+       width="192"
+       height="64"
+       x="1152"
+       y="576"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="1248"
+       y="608"
+       id="text3019-8-8-9-8-7-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan6469"
+         x="1248"
+         y="608">E. ごめんなさい、</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6471"
+         x="1248"
+         y="628">非対応です・・・</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#cce5ff;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7"
+       width="192"
+       height="64"
+       x="1152"
+       y="320"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="1248"
+       y="352"
+       id="text3019-8-8-9-8-7-6-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan3923"
+         x="1248"
+         y="352">VRCFuryで</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3925"
+         x="1248"
+         y="372">改変してる</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffcce5;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7-6"
+       width="192"
+       height="64"
+       x="1152"
+       y="320"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="1248"
+       y="352"
+       id="text3019-8-8-9-8-7-6-2-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan3923-1"
+         x="1248"
+         y="352">VRCFuryで</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3925-2"
+         x="1248"
+         y="372">改変してる</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#cce5ff;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7-3"
+       width="192"
+       height="64"
+       x="768"
+       y="320"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="864"
+       y="352"
+       id="text3019-8-8-9-8-7-6-2-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan3923-11"
+         x="864"
+         y="352">VRCFuryで</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3925-0"
+         x="864"
+         y="372">改変してる</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffe6cc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7-6-1"
+       width="192"
+       height="64"
+       x="768"
+       y="320"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="864"
+       y="352"
+       id="text3019-8-8-9-8-7-6-2-0-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan4190"
+         x="864"
+         y="352">Modular Avatarで</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4192"
+         x="864"
+         y="372">改変して</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffe6cc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7-3-0"
+       width="192"
+       height="64"
+       x="896"
+       y="448"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="992"
+       y="480"
+       id="text3019-8-8-9-8-7-6-2-0-2-9"><tspan
+         sodipodi:role="line"
+         id="tspan4182"
+         x="992"
+         y="480">ワンクリックで</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4184"
+         x="992"
+         y="500">お手軽に変換したい！</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#cce5ff;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7-3-0-7"
+       width="192"
+       height="64"
+       x="640"
+       y="448"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="736"
+       y="480"
+       id="text3019-8-8-9-8-7-6-2-0-2-9-9"><tspan
+         sodipodi:role="line"
+         id="tspan3923-11-4-2"
+         x="736"
+         y="480">VRCFuryで</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3925-0-2-2"
+         x="736"
+         y="500">改変してる</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffe6cc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7-6-1-4-3"
+       width="192"
+       height="64"
+       x="640"
+       y="448"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="736"
+       y="480"
+       id="text3019-8-8-9-8-7-6-2-0-0-3-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan4186"
+         x="736"
+         y="480">調整しながら</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4188"
+         x="736"
+         y="500">変換したい！</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:#ffe6cc;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+       id="rect2712-0-8-7-5-4-0-9-7-0"
+       width="192"
+       height="64"
+       x="960"
+       y="192"
+       ry="16"
+       rx="16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:normal;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-decoration-color:#000000;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="1056"
+       y="224"
+       id="text3019-8-8-9-8-7-6-2-0-7"><tspan
+         sodipodi:role="line"
+         id="tspan4194"
+         x="1056"
+         y="224">BOOTHで購入した</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4196"
+         x="1056"
+         y="244">VRChat想定アバターを</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Arrows"
+     style="display:inline"
+     transform="translate(64)">
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 672,128 v 32 H 544 v 32"
+       id="path4500" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 672,128 v 32 H 96 v 32"
+       id="path4500-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-0);paint-order:markers stroke fill;stop-color:#000000"
+       d="M 96,256 V 576"
+       id="path4500-3-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-0-6);paint-order:markers stroke fill;stop-color:#000000"
+       d="M 352,384 V 576"
+       id="path4500-3-6-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-0-6-1);paint-order:markers stroke fill;stop-color:#000000"
+       d="M 608,384 V 576"
+       id="path4500-3-6-5-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-0-6-1-8);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 736,512 v 64"
+       id="path4500-3-6-5-1-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-0-6-1-8-7);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 992,512 v 64"
+       id="path4500-3-6-5-1-0-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-0-6-1-8-7-2);paint-order:markers stroke fill;stop-color:#000000"
+       d="M 1257,384 V 574.08578"
+       id="path4500-3-6-5-1-0-1-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-2);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 672,128 v 32 h 384 v 32"
+       id="path4500-3-1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-2);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 480,256 v 32 h 128 v 32"
+       id="path4500-0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-3);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 480,256 v 32 H 352 v 32"
+       id="path4500-3-4"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-2-1);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 864,384 v 32 h 128 v 32"
+       id="path4500-0-6"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-3-7);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 864,384 v 32 H 736 v 32"
+       id="path4500-3-4-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-2-1);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 1056,256 v 32 h 192 v 32"
+       id="path4500-3-1-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       d="m 1056,256 v 32 H 864 v 32"
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow3-3-2-1);paint-order:markers stroke fill;stop-color:#000000"
+       id="path5179"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Nodes"
+     style="display:inline"
+     transform="translate(64)" />
+</svg>

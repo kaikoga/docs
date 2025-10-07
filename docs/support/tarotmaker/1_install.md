@@ -10,14 +10,14 @@ Modular Avatarを使用して、または使用せずにインストールでき
 
 ### Modular Avatarを使用する場合（推奨）
 
-1. Tarot Wizard をアバターの子に追加する
+1. Tarot Wizardをアバターの子に追加する
 2. 組み込みオプションをお好みに設定する
 3. 組み込み先の検出をして、必要に応じて調整する
 4. 位置合わせを行う
 
 ### Modular Avatarを使用せずに組み込む場合
 
-1. Tarot Wizard をシーンに追加する
+1. Tarot Wizardをシーンに追加する
 2. 組み込みオプションをお好みに設定する
 3. 組み込み対象のAvatarDescriptorを設定する
 4. 組み込み先の検出をして、必要に応じて調整する
@@ -35,14 +35,14 @@ Modular Avatarを使用せずに組み込む場合、アバターのアセット
 
 ## ステップ
 
-### Tarot Wizard を追加する
+### Tarot Wizardを追加する
 
-以下の方法で、 Tarot Wizard オブジェクトをシーンに追加してください。
+以下の方法で、Tarot Wizardオブジェクトをシーンに追加してください。
 
-- （推奨） Tarot Wizard 設定済みプレハブをヒエラルキーに追加する
+- （推奨）Tarot Wizard設定済みプレハブをヒエラルキーに追加する
 - 空のGameObjectをシーンに追加して、`Tarot Wizard` コンポーネントを追加した上で、デッキアセットを設定する
 
-Modular Avatar を使用する場合は、 Tarot Wizard オブジェクトをアバターの子に追加することでビルド時に非破壊で組み込まれます。
+Modular Avatarを使用する場合は、Tarot Wizardオブジェクトをアバターの子に追加することでビルド時に非破壊で組み込まれます。
 
 ### 組み込みオプション
 
@@ -93,7 +93,7 @@ Tarot Makerで同時に取り出すカードの枚数に応じてExpression Para
 
 ![Inspector Wizard Target_NonNDMF](img/wizard_target_nonndmf.png)
 
-Modular Avatarを使用せずに組み込む場合、対象のアバターの Avatar Descriptor を指定してください。
+Modular Avatarを使用せずに組み込む場合、対象のアバターのAvatar Descriptorを指定してください。
 
 アバターのFXレイヤー、ExpressionsMenu、ExpressionParameterを追加で検出します。
 
@@ -101,9 +101,9 @@ Tarotメニューをサブメニューに格納したい、カードを指先に
 
 #### `左利き` | `Is Left Handed`
 
-ON にした場合、左利きになります。（左手で手札を持ち、右手で山札を持ちます）
+ONにした場合、左利きになります。（左手で手札を持ち、右手で山札を持ちます）
 
-OFF の場合、右利きになります。（右手で手札を持ち、左手で山札を持ちます）
+OFFの場合、右利きになります。（右手で手札を持ち、左手で山札を持ちます）
 
 :::info[INFO]
 Modular Avatarを使用して組み込む場合、Tarotメニューのインストール位置は自動的にアクションメニューのトップレベルが指定されます。
@@ -120,9 +120,9 @@ Modular Avatarを使用して組み込む場合、Tarotメニューのインス�
 
 ### 組み込み
 
-Modular Avatar を使用する場合、ギミックはアバタービルド時に非破壊で組み込まれます。
+Modular Avatarを使用する場合、ギミックはアバタービルド時に非破壊で組み込まれます。
 
 ![Inspector Wizard Install_NonNDMF](img/wizard_install_nonndmf.png)
 
-Modular Avatar を使用しない場合、 「組み込む」ボタンを押してギミックをアバターに組み込むか、「削除する」ボタンを押してギミックをアバターから取り除きます。
+Modular Avatarを使用しない場合、 「組み込む」ボタンを押してギミックをアバターに組み込むか、「削除する」ボタンを押してギミックをアバターから取り除きます。
 自作したデッキアセットをリビルドした際は、リビルドされたデッキアセットの内容をアバターに反映するために、改めて「組み込む」ボタンを押してください。

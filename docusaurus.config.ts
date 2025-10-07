@@ -1,10 +1,11 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import unityComponentLinks from './src/remark/unityComponentLinks'
 
 const config: Config = {
   title: 'Silksprite Spindle',
-  tagline: 'A monodocument for all avatar tools by kaikoga',
+  tagline: 'A monodocument for all Unity tools by kaikoga',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,7 +21,14 @@ const config: Config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'throw',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+      onBrokenMarkdownImages: 'throw',
+    }
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -37,6 +45,9 @@ const config: Config = {
         docs: {
           routeBasePath: '/', // because we are already under /docs
           sidebarPath: './sidebars.ts',
+          remarkPlugins: [
+            unityComponentLinks
+          ]
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:

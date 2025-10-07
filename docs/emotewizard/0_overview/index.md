@@ -8,5 +8,6 @@ Emote Wizardは以下のアバターを編集できます。
 
 - VRChat
   - Avatar SDK 3.0
-- VRM 0.x
-- VRM 1.0
+- UniVRM 
+  - VRM 0.x
+  - VRM 1.0

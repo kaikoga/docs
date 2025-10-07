@@ -59,3 +59,24 @@ static void ShowLongContentWindow()
 画像はRetinaで撮ると巨大すぎるのでRetinaで撮るの禁止
 
 VRChatに「UIを最適化」した状態で撮ること
+
+admonitions ルール
+:::note[NOTE]
+作業上の推奨事項ではない、全ての人が知る必要はない内容、情報
+:::
+
+:::tip[TIPS]
+一部の人が従った方が良い内容
+:::
+
+:::info[INFO]
+一般的に全ての人が従った方が良い内容
+:::
+
+:::warning[WARNING]
+作業が進められないような問題が起きるやつ
+:::
+
+:::danger[DANGER]
+データを破壊するような問題が起きるやつ
+:::

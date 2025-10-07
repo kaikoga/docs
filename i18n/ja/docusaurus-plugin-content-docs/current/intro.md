@@ -10,65 +10,49 @@ kaikogaが作ったいろんなツールのドキュメント置き場です。
 
 # 入手方法
 
-## VCCからインストール
+## VPMパッケージをインストール
 
-VRChatユーザーはVCCを利用するのが簡単です。
-<a href="vcc://vpm/addRepo?url=https%3A%2F%2Fvpm.kaikoga.net%2Findex.json">VCC に vpm.kaikoga.net を追加する</a>
+ツールのVPMパッケージを [ALCOM](https://vrc-get.anatawa12.com/ja/alcom/) でインストールすることができます。
+VRChatユーザー以外の方も利用できます。
 
-VCC でインストールする場合、 VCC からアップデートを適用できます。
+<a href="vcc://vpm/addRepo?url=https%3A%2F%2Fvpm.kaikoga.net%2Findex.json">ALCOMまたはVCCにvpm.kaikoga.netを追加する</a>
+
+ALCOMでインストールする場合、必須の依存ライブラリが自動的にインストールされるほか、ALCOMからアップデートを適用できます。
+
+:::info[INFO]
+VRCSDKやUniVRM、NDMFなどは任意の依存ライブラリとして定義されています。
+必要な方は別途インストールが必要です。
+:::
 
 VPM置き場： https://vpm.kaikoga.net/
 
 VPMリポジトリURL（コマンドライン・互換ツール用）： https://vpm.kaikoga.net/index.json
 
-## GitHubからインストール
+:::info[INFO]
+VRChatユーザーはVRChat Creator Companionを使うこともできます。
+:::
 
-非VRChatユーザーはUnity標準のPackage Managerを利用してください。
+## UniVRMをインストール（オプション）
 
-以下のURLを 「Window」 → 「Package Manager」 → 「+」 → 「Add package from git URL...」 するか、 manifest.json に追記してください。
+UniVRMと連携するツールは、 `Assets` ではなく `Packages` フォルダにUniVRMをインストールすることが推奨されます。
 
-### Emote Wizard
+そのためには、UPM gitパッケージとしてUniVRMをインストールしてください。
 
-- https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.1
-
-```
-"net.kaikoga.emotewizard": "https://github.com/kaikoga/EasyModeAvatar-Unity.git#v0.99.1",
-```
-
-### Avatar Tinker Vista + AdLib
-
-- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v0.2.0
-- https://github.com/kaikoga/AdLib-Unity.git#v0.1.0
-
-```
-"net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v0.2.0",
-"net.kaikoga.adlib": "https://github.com/kaikoga/AdLib-Unity.git#v0.1.0",
-```
-
-### QuestReplacer
-
-- https://github.com/kaikoga/QuestReplacer-Unity.git?path=/QuestReplacer/Packages/net.kaikoga.questreplacer#v0.2.1
+以下のURLを、いずれかの方法で追加してください。
+ 
+- メニューバー → `Window` → `Package Manager` からPackage Managerを開き、左上の「＋」メニューから `Add package from git URL...` してください。
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.129.3
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.129.3
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.129.3
+- または、 `Packages/manifest.json` の `dependencies` 以下に追記してください。
 
 ```
-"net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git?path=/QuestReplacer/Packages/net.kaikoga.questreplacer#v0.2.1",
+    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.129.3",
+    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.129.3",
+    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.129.3",
 ```
 
-### NuguminTool
-
-- https://github.com/kaikoga/Modularizer-Unity.git?path=/Modularizer/Packages/net.kaikoga.modularizer#v1.0.0
-
-```
-"net.kaikoga.modularizer": "https://github.com/kaikoga/Modularizer-Unity.git?path=/Modularizer/Packages/net.kaikoga.modularizer#v1.0.0",
-```
-
-## BOOTH からインストール（非推奨）
-
-BOOTH https://kaikoga.booth.pm/
-
-BOOTHのパッケージは古いことがあります。
-安定版が出ていないツールはBOOTHに置かれていないこともあります。
-
-そこになければないですね。
+[//]: # (編集時の注意：ここを更新したらチュートリアルも更新すること)
 
 ## 質問コーナー
 

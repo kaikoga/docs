@@ -1,0 +1,73 @@
+.ucLink::before {
+    content: "";
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    background-size: contain;
+}
+
+.ucLink {
+    font-weight: bold;
+}
+
+.ucLinkNot::before {
+    content: none;
+}
+
+.ucLink.ucLinkNot {
+    font-weight: normal;
+}
+
+.ucLinkVRCSDK::before {
+    background-image: url("/img/ucLink/vrcsdk.png");
+}
+
+.ucLinkUniVRM0::before {
+    background-image: url("/img/ucLink/vrm0x-48x48.png");
+}
+
+.ucLinkUniVRM1::before {
+    background-image: url("/img/ucLink/vrm-48x48.png");
+}
+
+.ucLinkMA::before {
+    background-image: url("/img/ucLink/Icon_MA_Script.png");
+}
+
+.ucLinkAAO::before {
+    background-image: url("/img/ucLink/aao.png");
+}
+
+.ucLinkMMS::before {
+    background-image: url("/img/ucLink/mms.svg");
+    background-position: -2px -2px;
+    background-size: 20px;
+    background-color: #333;
+}
+
+.ucLinkTTT::before {
+    background-image: url("/img/ucLink/TTT_icon.png");
+}
+
+.ucLinkVQT::before {
+    background-image: url("/img/ucLink/vqt.png");
+}
+
+.ucLinkATiV::before {
+    background-image: url("/img/ucLink/AvatarTinkerVistaIcon.png");
+}
+
+.ucLinkEW::before {
+    background-image: url("/img/ucLink/EmoteWizardIcon.png");
+}
+
+.ucLinkQR::before {
+    background-image: url("/img/ucLink/QuestReplacerIcon.png");
+}
+
+.ucLinkModularizer::before {
+    background-image: url("/img/ucLink/icon.png");
+}

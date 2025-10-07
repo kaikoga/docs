@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # ATiV Overwrite VRM0+1 Meta
 
-VRMMeta / Vrm10Instance に含まれるメタデータの一部を上書きします。
+`uc:VRMMeta` / `uc:Vrm10Instance` に含まれるメタデータの一部を上書きします。
 
 ## 役に立つ状況
 

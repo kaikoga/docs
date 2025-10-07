@@ -8,10 +8,10 @@ sidebar_position: 100
 
 既定の条件に連動するアニメーションをここに登録します。
 
-アニメーションの内容は **Generic Emote Sequence Source** で設定します。
+アニメーションの内容は `uc:GenericEmoteSequenceSource` で設定します。
 
 :::warning[WARNING]
-**Generic Emote Item Source** に **Emote Sequence Source** をセットすることはできますが、動作しません。 
+`uc:GenericEmoteItemSource` に `uc:EmoteSequenceSource` をセットすることはできますが、動作しません。 
 :::
 
 - `プラットフォーム`: このGeneric Emote Item Sourceの対象となるプラットフォームを指定します。

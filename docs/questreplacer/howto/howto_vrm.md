@@ -6,7 +6,7 @@ sidebar_position: 11
 
 Quest対応の方法と一緒です。
 
-ただし、最初に「New Quest」を選ぶ代わりに「New VRM0」または「New VRM1」を選んでください。
+ただし、最初に `New VRChat Mobile` を選ぶ代わりに `New VRM0` または `New VRM1` を選んでください。
 
 ## 自動作成されるマテリアル
 

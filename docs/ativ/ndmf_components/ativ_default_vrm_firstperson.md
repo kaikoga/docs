@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # ATiV Default VRM0+1 FirstPerson
 
-VRMFirstPerson / Vrm10Instance のFirstPerson設定が行われていないRendererに対して指定されたデフォルト値を割り当てます。
+`uc:VRMFirstPerson` / `uc:Vrm10Instance` のFirstPerson設定が行われていないRendererに対して指定されたデフォルト値を割り当てます。
 
 ## 役に立つ状況
 

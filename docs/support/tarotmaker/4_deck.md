@@ -7,7 +7,7 @@ sidebar_position: 20
 デッキアセットについて説明します。
 
 :::info[INFO]
-※以下の方法でデッキアセットを自作するには、 Tarot Maker フルセットが必要です。
+※以下の方法でデッキアセットを自作するには、Tarot Makerフルセットが必要です。
 :::
 
 ## デッキアセット | Deck Asset
@@ -28,7 +28,7 @@ sidebar_position: 20
 
 カードの縦横比を指定します。
 
-#### `Bounds サイズ` | `Bounds Size`
+#### `Boundsサイズ` | `Bounds Size`
 
 １枚目のカードを中心として、その他のカードがカリングされずに表示される範囲の広さを設定します。
 ここで設定した数値メートル分まで離れられますが、初期値より大きくするとパフォーマンスランクに影響することがあります。
@@ -54,9 +54,9 @@ OFFにすると、カードは必ず正位置で出現します。
 有効化すると、カードの直接選択に必要な追加のリソースを生成します。
 （デッキアセットの容量が増加します）
 
-#### `VRC Constraints を使用する` | `Use VRC Constraints`
+#### `VRC Constraintsを使用する` | `Use VRC Constraints`
 
-有効化すると、 Unity 標準の Constraints の代わりに VRC Constraints を使用するデッキアセットを生成します。
+有効化すると、Unity標準のConstraintsの代わりにVRC Constraintsを使用するデッキアセットを生成します。
 
 ### 出力先設定
 
@@ -88,4 +88,4 @@ unitypackageには以下のものが含まれます。
 - （存在する場合）デッキアセット設定済みのプレハブ
 - （使用している場合）合成済みのカード画像
 
-Tarot Maker フルセットを所有している場合、unitypackageを配布できます。
+Tarot Makerフルセットを所有している場合、unitypackageを配布できます。
