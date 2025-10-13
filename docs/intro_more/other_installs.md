@@ -22,11 +22,11 @@ Unity標準のPackage Managerからパッケージを個別にインストール
 
 ### Avatar Tinker Vista + AdLib
 
-- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v1.0.0
+- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v1.0.1
 - https://github.com/kaikoga/AdLib-Unity.git#v1.0.0
 
 ```
-"net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v1.0.0",
+"net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v1.0.1",
 "net.kaikoga.adlib": "https://github.com/kaikoga/AdLib-Unity.git#v1.0.0",
 ```
 
@@ -48,10 +48,10 @@ Unity標準のPackage Managerからパッケージを個別にインストール
 
 ### QuestReplacer
 
-- https://github.com/kaikoga/QuestReplacer-Unity.git#v1.0.0
+- https://github.com/kaikoga/QuestReplacer-Unity.git#v1.0.1
 
 ```
-"net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git#v1.0.0",
+"net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git#v1.0.1",
 ```
 
 ### NuguminTool
