@@ -77,15 +77,15 @@ UnityでVRMアバターを取り扱うために使います。
 具体的には、以下のURLをいずれかの方法で追加してください。
 
 - メニューバー → `Window` → `Package Manager` からPackage Managerを開き、左上の「＋」メニューから `Add package from git URL...` してください。
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.129.3
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.129.3
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.129.3
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1
 - または、 `Packages/manifest.json` の `dependencies` 以下に追記してください。
 
 ```
-    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.129.3",
-    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.129.3",
-    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.129.3",
+    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1",
+    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1",
+    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1",
 ```
 
 :::

@@ -41,17 +41,20 @@ To do so, please install UniVRM as a UPM git package.
 Add URLs below by either method:
 
 - Open the Package Manager by menu bar -> `Window` -> `Package Manager`, open the "+" menu at the upper left and select `Add package from git URL...`.
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.129.3
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.129.3
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.129.3
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1
+  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1
 - Or, add the URLs under `dependencies` of `Packages/manifest.json`. 
 
 
 ```
-    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.129.3",
-    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.129.3",
-    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.129.3",
+    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1",
+    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1",
+    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1",
 ```
+
+[//]: # (編集時の注意：jaもある)
+[//]: # (編集時の注意：ここを更新したらチュートリアルも更新すること)
 
 ## Not so much Asked Questions
 
