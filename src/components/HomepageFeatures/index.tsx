@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
     path: 'ativ',
     description: (
       <>
-        Small avatar tools for NDMF
+        Small avatar tools
       </>
     ),
   },

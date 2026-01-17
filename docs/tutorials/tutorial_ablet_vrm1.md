@@ -1,15 +1,15 @@
 ---
-sidebar_position: 101
+sidebar_position: 120
 ---
 
-# チュートリアル：VRM1 No VRCSDK
+# チュートリアル：Ablet only VRM1
 
-`Chillaxins` を利用して、VRCSDKのない環境でNDMFワークフローを利用してアバターカメラアプリ向けのVRM1.0アバターを構築するチュートリアルです。
+VRCSDKとNDMFを使わず、 `ablet:Ablet` を利用してアバターカメラアプリ向けのVRM1.0アバターを構築するチュートリアルです。
 
-:::warning[WARNING]
-本チュートリアルは上級者向けです。
+:::info[INFO]
+技術的には、NDMFをVRCSDKなしで動作させることは可能です。
 
-VRCSDKをインストールできる環境ではVRCSDKをインストールした方が簡単でトラブルが少ないです。
+しかし、NDMFのクロスプラットフォームサポートがVRChat向けアバター以外を扱いづらい、 `Chillaxins` が必要など、高度な知識を必要とするため、本チュートリアルでは推奨しません。
 :::
 
 ## 前提条件
@@ -19,15 +19,25 @@ VRCSDKをインストールできる環境ではVRCSDKをインストールし�
 - Unityの操作
 - UniVRM（もしくは、任意のアバタープラットフォーム）を使ったアバターのセットアップ
 
+また、本チュートリアルでは、VRChat向けにセットアップされた衣装アセットのVRChat特有の設定を無視してFBXから直接セットアップすることを想定します。
+
 ### VRChat想定アバターの扱い方
 
 VRChat想定でセットアップ済みのアバターアセットを取り扱う場合、一般的には、VRCSDKをインストールした環境で扱う方が（VRCSDKのコンポーネントから値を取り出せるため）簡単です。
-UniVRMや`Modular Avatar Resonite`を利用する場合、VRCSDKをインストールした方が良いです。
 
-ChilloutVRやBasisなどの環境では、VRCSDKと共存できないSDKを利用する必要があります。
+#### VRCSDKと共存できるSDK
+
+UniVRMや `ma:Modular Avatar Resonite` は（Unityのバージョンに互換性がある限りは）VRCSDKと同じプロジェクトにインストールできます。
+この場合、１つのプロジェクトから複数のプラットフォームにアバターを書き出せるようになります。 
+
+:::tip[TIPS]
+Modular Avatar ResoniteはNDMF経由で動作する為、いずれにせよVRCSDKをインストールした方が良いです。
+:::
+
+#### VRCSDKと共存できないSDK
+
+ChilloutVRやBasis Frameworkなどの環境では、VRCSDKと共存できないSDKを利用する必要があります。
 この場合、VRCSDKをインストールしたUnityプロジェクトと対象のプラットフォームのSDKをインストールしたUnityプロジェクトの２つを作成して、おそらく設定の目コピーを行うことになるでしょう。
-
-本チュートリアルでは、VRChat向けにセットアップされた衣装アセットのVRChat特有の設定を無視してFBXから直接セットアップすることを想定します。
 
 ## Unityのインストール
 
@@ -44,8 +54,6 @@ Unity Hubから新しい `3D(Built-In Render Pipeline)` プロジェクトを作
 
 :::info[INFO]
 特に明記されていない場合、ライブラリは最新版をインストールするようにしてください。
-
-特にNDMFのクロスプラットフォームサポートは歴史が浅く更新が活発なため、ベータ版のライブラリを使う方が安全です。
 :::
 
 ### ALCOMのインストール
@@ -53,49 +61,33 @@ Unity Hubから新しい `3D(Built-In Render Pipeline)` プロジェクトを作
 本チュートリアルではVPMパッケージとしてインストールできるもの（つまり、UniVRM以外全部）はVPMでインストールします。
 
 VRCSDKのない環境なので、VCCは利用できません。
-`ALCOM` を使ってください。
+`alcom:ALCOM` を使ってください。
 
-先ほどUnity Hubから作成したプロジェクトを `ALCOM` に認識させます。
+先ほどUnity Hubから作成したプロジェクトを `alcom:ALCOM` に認識させます。
 
 `Create New Project` 右のドロップダウンメニューから `Add Existing Project` を選び、先ほど作成したプロジェクトを選択してください。
 
-以下、 VPM Repo: の記述がある場合、 `ALCOM` の `Resources` タブから `Add Repository` を選択することで、 `ALCOM` からVPMパッケージを追加できるようになります。
+以下、 VPM Repo: の記述がある場合、 `alcom:ALCOM` の `Resources` タブから `Add Repository` を選択することで、 `alcom:ALCOM` からVPMパッケージを追加できるようになります。
 
 :::info[INFO]
-おそらく `ALCOM` の表示はあなたのシステムの言語に合わせて翻訳されているはずです。
+おそらく `alcom:ALCOM` の表示はあなたのシステムの言語に合わせて翻訳されているはずです。
 読み替えてください。
 :::
 
-### NDMF、Chillaxinsのインストール
-
-VRCSDKのない環境なので、 `Chillaxins` に含まれる依存ライブラリを利用してNDMFを動かします。
-
-ref: [2024-12-08 他のアプリケーションでModular Avatarを動かす方法 | Haï~](https://docs.hai-vr.dev/docs/research/other/modular-avatar-on-other-apps-ja)
-
-**Non-Destructive Modular Framework (NDMF)**\
-Docs: https://modular-avatar.nadena.dev/ja/ \
-VPM Repo: https://vpm.nadena.dev/vpm.json \
-アバターを非破壊改変するツールを連携して動作させるために使います。
-
-**Chillaxins**\
-Docs: https://docs.hai-vr.dev/docs/products/chillaxins \
-VPM Repo: https://hai-vr.github.io/vpm-listing/index.json \
-VRCSDKのない環境でNDMFを動作させるために必要です。
-
-### vpm.kaikoga.netのインストール
+### ATiV Suiteのインストール
 
 VPM Repo: https://vpm.kaikoga.net/index.json
 
-いっぱいインストールします。
+ATiV Suite をインストールするか、以下の個別ライブラリをインストールしてください。
+
+**Ablet**\
+他のアバター編集ツールを自動的に動かすための基盤ライブラリです。
 
 **Emote Wizard**\
 VRMアバターの表情とリップシンクの設定を行います。
 
 **Avatar Tinker Vista**\
 VRMのメタデータを設定します。
-
-**Avatar Tinker Vista - ApplyOnPlayHack**\
-NDMFのApply On PlayでVRMアバターをVRMアバターとしてビルドできるようにします。
 
 **QuestReplacer**\
 VRM1.0で使うMToon10マテリアルの生成と、ビルド時のマテリアル差し替えを行います。
@@ -109,24 +101,22 @@ Docs: https://vrm.dev/ \
 GitHub Releases: https://github.com/vrm-c/UniVRM/releases \
 UnityでVRMアバターを取り扱うために使います。
 
-:::warning[WARNING]
-多くの外部NDMFプラグインは、unitypackageでインストールされたUniVRMを無視します。
-このため、UniVRMはUPMでインストールすることが推奨されます。
-
-具体的には、以下のURLをいずれかの方法で追加してください。
+:::info[INFO]
+UniVRM 0.131.0をUPMでインストールするには、以下のURLをいずれかの方法で追加してください。
 
 - メニューバー → `Window` → `Package Manager` からPackage Managerを開き、左上の「＋」メニューから `Add package from git URL...` してください。
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/UniGLTF#v0.131.0
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM#v0.131.0
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM10#v0.131.0
 - または、 `Packages/manifest.json` の `dependencies` 以下に追記してください。
 
 ```
-    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1",
-    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1",
-    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1",
+    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Packages/UniGLTF#v0.131.0",
+    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM#v0.131.0",
+    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM10#v0.131.0",
 ```
 
+unitypackageによるインストールも可能です。
 :::
 
 :::tip[TIPS]
@@ -141,11 +131,16 @@ VRM以外のプラットフォームをターゲットする人は、読み替�
 VRCSDKがインストールされると困る場合は、 [2024-12-08 他のアプリケーションでModular Avatarを動かす方法 | Haï~](https://docs.hai-vr.dev/docs/research/other/modular-avatar-on-other-apps-ja) をよく読んでください。
 :::
 
+**Non-Destructive Modular Framework (NDMF)**\
+Docs: https://modular-avatar.nadena.dev/ja/ \
+VPM Repo: https://vpm.nadena.dev/vpm.json \
+アバターを非破壊改変するツールを連携して動作させるために使います。
+
 **Modular Avatar**\
 Docs: https://modular-avatar.nadena.dev/ja/ \
 VPM Repo: https://vpm.nadena.dev/vpm.json \
 VRChat向けアバターアセットによく見られる、アバタープレハブと衣装プレハブが分かれているもののアーマチュアを結合するために使います。
-具体的には、 `uc:ModularAvatarMergeArmature` と `uc:ModularAvatarBoneProxy` は利用できることが想定されます。
+具体的には、 `ma:ModularAvatarMergeArmature` と `ma:ModularAvatarBoneProxy` は利用できることが想定されます。
 
 :::info[INFO]
 Modular Avatarのコンポーネントのうち、VRChatに依存しているものは利用できません。
@@ -160,6 +155,14 @@ VPM Repo: https://vpm.anatawa12.com/vpm.json \
 
 本チュートリアルでは以上のツールの使い方の説明はしません。
 使い方はそれぞれのリンク先を参照してください。
+
+## NDMFコンポーネントの置き換え
+
+Modular Avatarをインストールしなかった場合、例えば `ma:ModularAvatarMergeArmature` や `ma:ModularAvatarBoneProxy` は `ativ:AtivSimpleWear` で代替する必要があるでしょう。 
+
+:::tip[TIPS]
+VRCSDKがないので、 `vrcf:ArmatureLink` も置き換えが必要です。
+:::
 
 ## To be continued...
 

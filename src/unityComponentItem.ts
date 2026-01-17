@@ -2,7 +2,7 @@ export type UnityComponentItem = {
   id: string;
   displayName: string;
   link: string,
-  className?: string
+  classNames: string[]
 };
 
 export default UnityComponentItem;

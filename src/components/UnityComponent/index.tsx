@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 export default function UnityComponent({children, id}): JSX.Element {
   const component = unityComponentsDef.find(c => c.id === id);
   const displayName = component?.displayName ?? id;
-  const className = [styles.ucLink, styles[component.className]].join(' ');
+  const className = [styles.ucLink, ...component.classNames.map(className => styles[className])].join(' ');
   if (!component) {
     console.log(`unknown component name found: ${id}`)
   }

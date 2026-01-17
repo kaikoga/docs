@@ -2,15 +2,10 @@
 sidebar_position: 1
 ---
 
-# Avatar Tinker Vista - ApplyOnPlayHack
+# Avatar Tinker Vista - ApplyOnPlayHack (Legacy)
 
-Modular AvatarでVRMアバターをApply on PlayできるようになるNDMFのハックです。
+## これはなに？
 
-# これは何をするの？
+複数のNDMFプラットフォームを扱うプロジェクトで、 Apply on Playの際にアバターのプラットフォームを維持するApply on Playの実装でした。
 
-NDMF 1.8.xをインストールした環境でPlayモードに変更した際、シーン上の全てのアバターがVRChat用アバターに変換されます。
-Avatar Tinker Vista - ApplyOnPlayHackはこの挙動を変更し、Apply on Playの際にアバターのプラットフォームが維持されるようになります。
-
-これはNDMFのマルチプラットフォーム機能が改善されるまでの一時的な回避策です。
-NDMFのマルチプラットフォーム機能が改善された場合、本プラグインはサポートを終了し、NDMF自体の機能を利用することが推奨されます。
-
+`ablet:Ablet` は同じことをしているので、同等の挙動が望まれる場合はAbletへの移行を推奨します。

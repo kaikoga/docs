@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # ATiV Generate VRM0+1 SpringBone
 
-アバターがVRM0向けであれば、 `uc:VRMSpringBone` を生成します。
+アバターがVRM0向けであれば、 `univrm0:VRMSpringBone` を生成します。
 
-アバターがVRM1向けであれば、 `uc:Vrm10Instance` にSpringBoneを追加登録します。
+アバターがVRM1向けであれば、 `univrm1:Vrm10Instance` にSpringBoneを追加登録します。
 
 このコンポーネントはSpringBone JointやSpringBone Colliderを必要に応じて生成します。
 既にアバターにSpringBone Jointがついている場合、動作しないことがあります。
@@ -22,4 +22,4 @@ Modular AvatarでマージするプレハブにSpringBoneの追加設定を記�
 VRMのSpringBoneコンポーネントのようにパラメータを指定してください。
 
 このコンポーネントそのものは揺れものとしては機能しません。
-NDMFのApply on Playで変換するか、コンテキストメニューからBakeしてください。
+`ndmf:NDMF` や `ablet:Ablet` のApply on Playで変換するか、コンテキストメニューからBakeしてください。

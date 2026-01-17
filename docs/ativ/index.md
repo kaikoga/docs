@@ -8,7 +8,9 @@ sidebar_position: 1
 
 たまに役に立つ小さい単機能アバターツールの詰め合わせです。
 
-# 特徴
+GitHub: https://github.com/kaikoga/AvatarTinkerVista-Unity
+
+## 特徴
 
 - 単純
   - 使えます
@@ -20,22 +22,16 @@ sidebar_position: 1
   - 長期的なサポートはありません
   - 依存ツールのアップデートで動かなくなる可能性はありますが、プロジェクトを壊すことはないようになっています
 
-# 収録コンポーネント
+## 収録コンポーネント
 
 「Component」 → 「Avatar Tinker Vista」 でコンポーネントを追加してください。
 
 :::info[INFO]
-NDMFが存在する環境ではNDMFと連携するコンポーネントもあります。
+一部のコンポーネントは、いわゆる非破壊編集ワークフローをサポートしたり、いわゆる非破壊編集ワークフローを前提とします。
+
+非破壊編集ワークフローを有効にするには `ndmf:NDMF` または `ablet:Ablet` のいずれかが必要です。
 :::
 
-# 収録NDMFコンポーネントの使い方
-
-「Component」 → 「Avatar Tinker Vista」 でコンポーネントを追加してください。
-
-:::info[INFO]
-NDMFコンポーネントを利用するにはNDMFが必要です。
-:::
-
-# 収録ツールの使い方
+## 収録ツールの使い方
 
 「Window」 → 「Avatar Tinker Vista」 からウィンドウを開いてください。

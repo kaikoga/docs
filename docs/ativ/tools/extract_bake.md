@@ -28,11 +28,11 @@ VRChat向けアバターをVRMアバターに変換する際、揺れものの�
 
 #### `Extract VRC PhysBones as ATiV Generate VRM SpringBones`
 
-`uc:VRCPhysBone`を `uc:AtivGenerateDynamics` に変換します。
+`vrc:VRCPhysBone`を `ativ:AtivGenerateDynamics` に変換します。
 
 #### `Extract VRC Constraints as ATiV Generate VRM Constraints`
 
-VRC Constraintを `uc:AtivGenerateConstraint` に変換します。
+VRC Constraintを `ativ:AtivGenerateConstraint` に変換します。
 
 ### ATiV Generate系コンポーネントから変換
 
@@ -42,11 +42,11 @@ NDMFを利用する場合、ATiV Generate系コンポーネントはNDMFのビ�
 
 #### `Bake ATiVGenerateSpringBones as VRM0 SpringBones`
 
-`uc:AtivGenerateDynamics` をVRM0のSpringBoneに変換します。
+`ativ:AtivGenerateDynamics` をVRM0のSpringBoneに変換します。
 
 #### `Bake ATiVGenerateSpringBones as ATiV Merge VRM1 SpringBones`
 
-`uc:AtivGenerateDynamics` を `uc:AtivMergeVRM1SpringBones` に変換します。
+`ativ:AtivGenerateDynamics` を `ativ:AtivMergeVRM1SpringBones` に変換します。
 
 :::warning[WARNING]
 `Vrm10SpringBoneJoint` が生成されます。
@@ -54,7 +54,7 @@ NDMFを利用する場合、ATiV Generate系コンポーネントはNDMFのビ�
 
 #### `Bake ATiVGenerateSpringBones into Vrm10Instance SpringBones`
 
-`uc:AtivGenerateDynamics` をVRM1のSpringBoneに変換します。
+`ativ:AtivGenerateDynamics` をVRM1のSpringBoneに変換します。
 
 :::warning[WARNING]
 設定値はアバターの `VRMInstance` に破壊的に書き込まれます。また、 `Vrm10SpringBoneJoint` が生成されます。

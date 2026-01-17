@@ -9,12 +9,12 @@ sidebar_position: 24
 同じようなマテリアルの置き換えを行うアバターを複数のシーンで設定している場合、置き換えパターンをデータベースにセーブ・ロードすることで一元管理できます。
 
 :::info[INFO]
-`uc:QuestReplacerDatabase` はプラットフォームごとに最低１つ作成されます。
+`qr:QuestReplacerDatabase` はプラットフォームごとに最低１つ作成されます。
 :::
 
 ## ロード
 
-`uc:QuestReplacer` でロード操作を行うことで、 `uc:QuestReplacerDatabase` に保存された置き換えパターンをアバターに読み込みます。
+`qr:QuestReplacer` でロード操作を行うことで、 `qr:QuestReplacerDatabase` に保存された置き換えパターンをアバターに読み込みます。
 
 ロード操作を行うには、 `Database` のすぐ下にある `Load` ボタンを押してください。
 
@@ -26,8 +26,8 @@ sidebar_position: 24
 
 ## セーブ
 
-`uc:QuestReplacer` でセーブ操作を行うことで、 `uc:QuestReplacerDatabase` に置き換えパターンを追加できます。
-セーブ操作を行わない場合、置き換えパターンや生成済みマテリアルへの参照は `uc:QuestReplacer` コンポーネントのみが保持し、他のアバターからは参照できません。
+`qr:QuestReplacer` でセーブ操作を行うことで、 `qr:QuestReplacerDatabase` に置き換えパターンを追加できます。
+セーブ操作を行わない場合、置き換えパターンや生成済みマテリアルへの参照は `qr:QuestReplacer` コンポーネントのみが保持し、他のアバターからは参照できません。
 
 セーブ操作を行うには、 `Database` のすぐ下にある `Save` ボタンを押してください。
 

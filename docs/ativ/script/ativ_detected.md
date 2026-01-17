@@ -25,6 +25,26 @@ UniVRMのVRM0.xがインストールされている場合、Unityのプロジェ
 
 UniVRMのVRM1.0がインストールされている場合、Unityのプロジェクト全体で `ATIV_DETECTED_VRM1` が定義されます。
 
+### 詳細
+
+プロジェクト内にUniVRMのスクリプトが含まれているかどうかを検出します。
+このため、以下の
+
+- unitypackageで `Assets` 以下にインストールされたUniVRM
+- unitypackageで `Packages` 以下にインストールされたUniVRM
+- UPMで `Packages` 以下にインストールされたUniVRM
+- UPMで `Packages` 以下に他のライブラリの一部としてインストールされたUniVRM
+
+:::info[INFO]
+`warudo:Warudo` のSDKは内部にUniVRM 0.129.1を含みます。
+これは最後のケースに該当し、 `ATIV_DETECTED` によって検出可能です。
+:::
+
+:::info[INFO]
+`cluster:Cluster Creator Kit` のSDKは内部に古いUniVRMのMToonのみを含みます。
+これはUniVRMとして扱われません。
+:::
+
 ## 凝った使い方
 
 単独ではUPMでインストールされたUniVRMを検出し、Avatar Tinker Vistaが入っている場合はunitypackageでインストールされたUniVRMを追加で検出する場合は、以下のいずれかの方法が使えます。

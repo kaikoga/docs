@@ -4,7 +4,11 @@ sidebar_position: 1
 
 # ATiV Overwrite VRM0+1 Meta
 
-`uc:VRMMeta` / `uc:Vrm10Instance` に含まれるメタデータの一部を上書きします。
+:::note[NOTE]
+このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
+:::
+
+`univrm0:VRMMeta` / `univrm1:Vrm10Instance` に含まれるメタデータの一部を上書きします。
 
 ## 役に立つ状況
 

@@ -2,17 +2,17 @@ import UnityComponentItem from '@site/src/unityComponentItem';
 
 const qrComponents: UnityComponentItem[] = [
   {
-    id: "uc:QuestReplacer",
+    id: "qr:QuestReplacer",
     displayName: "Quest Replacer",
     link: "/questreplacer/config"
   },
   {
-    id: "uc:QuestReplacerDatabase",
+    id: "qr:QuestReplacerDatabase",
     displayName: "Quest Replacer Database",
     link: "/questreplacer/database"
   },
 ].map((x: any) => {
-  x.className = "ucLinkQR";
+  x.classNames = ["ucLinkQR"];
   return x;
 });
 

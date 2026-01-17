@@ -2,17 +2,22 @@ import UnityComponentItem from '@site/src/unityComponentItem';
 
 const maComponents: UnityComponentItem[] = [
   {
-    id: "uc:ModularAvatarMergeArmature",
+    id: "ma:ModularAvatarMergeArmature",
     displayName: "MA Merge Armature",
-    link: ""
+    link: "https://modular-avatar.nadena.dev/docs/reference/merge-armature?lang=auto"
   },
   {
-    id: "uc:ModularAvatarBoneProxy",
+    id: "ma:ModularAvatarBoneProxy",
     displayName: "MA Bone Proxy",
-    link: ""
+    link: "https://modular-avatar.nadena.dev/docs/reference/bone-proxy?lang=auto"
+  },
+  {
+    id: "ma:ModularAvatarMeshSettings",
+    displayName: "MA MeshSettings",
+    link: "https://modular-avatar.nadena.dev/docs/reference/mesh-settings?lang=auto"
   },
 ].map((x: any) => {
-  x.className = "ucLinkMA";
+  x.classNames = ["ucLinkMA"];
   return x;
 });
 

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # ATiV Generate VRM0+1 SpringBone Collider
 
-`uc:AtivGenerateDynamicsColliderGroup` にコライダーを追加します。
+`ativ:AtivGenerateDynamicsColliderGroup` にコライダーを追加します。
 
 ## 役に立つ状況
 
@@ -17,4 +17,4 @@ VRM1のConstraintコンポーネントとは異なり、ついているGameObjec
 VRMのSpringBone Colliderコンポーネントのようにパラメータを指定してください。
 
 このコンポーネントそのものは揺れものとしては機能しません。
-NDMFのApply on Playで変換するか、コンテキストメニューからBakeしてください。
+`ndmf:NDMF` や `ablet:Ablet` のApply on Playで変換するか、コンテキストメニューからBakeしてください。

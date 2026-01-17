@@ -12,46 +12,52 @@ Unity標準のPackage Managerからパッケージを個別にインストール
 
 以下のURLを メニューバー→ `Window` → `Package Manager` → `+` → `Add package from git URL...` するか、 `Packages/manifest.json` に追記してください。
 
-### Emote Wizard
+### ATiV Suite
 
-- https://github.com/kaikoga/EmoteWizard-Unity.git#v1.0.0
-
-```
-"net.kaikoga.emotewizard": "https://github.com/kaikoga/EmoteWizard-Unity.git#v1.0.0",
-```
-
-### Avatar Tinker Vista + AdLib
-
-- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v1.0.1
-- https://github.com/kaikoga/AdLib-Unity.git#v1.0.0
+- https://github.com/kaikoga/AtivSuite-Unity.git#v2.0.0
 
 ```
-"net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v1.0.1",
-"net.kaikoga.adlib": "https://github.com/kaikoga/AdLib-Unity.git#v1.0.0",
+"net.kaikoga.ativ.suite": "https://github.com/kaikoga/AtivSuite-Unity.git#v2.0.0",
 ```
 
-### Avatar Tinker Vista - ApplyOnPlayHack
+:::info[INFO]
+ATiV Suiteをインストールすることで、以下のパッケージの多くが依存関係としてインストールされます。
+:::
 
-- https://github.com/kaikoga/AvatarTinkerVista-Unity-ApplyOnPlayHack.git#v0.1.0
+#### Emote Wizard
 
-```
-"net.kaikoga.ativ.applyonplayhack": "https://github.com/kaikoga/AvatarRankerVista-Unity-ApplyOnPlayHack.git#v0.1.0",
-```
-
-### Avatar Ranker Vista
-
-- https://github.com/kaikoga/AvatarRankerVista-Unity.git#v1.0.0
+- https://github.com/kaikoga/EmoteWizard-Unity.git#v2.0.0
 
 ```
-"net.kaikoga.arv": "https://github.com/kaikoga/AvatarRankerVista-Unity.git#v1.0.0",
+"net.kaikoga.emotewizard": "https://github.com/kaikoga/EmoteWizard-Unity.git#v2.0.0",
 ```
 
-### QuestReplacer
+#### Avatar Tinker Vista + AdLib + Ablet
 
-- https://github.com/kaikoga/QuestReplacer-Unity.git#v1.0.1
+- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v2.0.0
+- https://github.com/kaikoga/AdLib-Unity.git#v2.0.0
+- https://github.com/kaikoga/Ablet-Unity.git#v2.0.0
 
 ```
-"net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git#v1.0.1",
+"net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v2.0.0",
+"net.kaikoga.adlib": "https://github.com/kaikoga/AdLib-Unity.git#v2.0.0",
+"net.kaikoga.ablet": "https://github.com/kaikoga/Ablet-Unity.git#v2.0.0",
+```
+
+#### Avatar Ranker Vista
+
+- https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.0.0
+
+```
+"net.kaikoga.arv": "https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.0.0",
+```
+
+#### QuestReplacer
+
+- https://github.com/kaikoga/QuestReplacer-Unity.git#v2.0.0
+
+```
+"net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git#v2.0.0",
 ```
 
 ### NuguminTool

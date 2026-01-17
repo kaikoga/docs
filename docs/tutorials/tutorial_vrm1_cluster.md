@@ -1,5 +1,5 @@
 ---
-sidebar_position: 101
+sidebar_position: 111
 ---
 
 # チュートリアル＋：VRM1 cluster
@@ -23,11 +23,11 @@ VRChat PC向けのアバターをNDMFワークフローでVRM1.0に出力した�
 特に明記されていない場合、ライブラリは最新版をインストールするようにしてください。
 :::
 
-### vpm.kaikoga.netのインストール
+### ATiV Suiteのインストール
 
 VPM Repo: https://vpm.kaikoga.net/index.json
 
-以下のパッケージを追加でインストールします。
+ATiV Suite をインストールするか、以下の個別ライブラリをインストールしてください。
 
 **Avatar Ranker Vista**\
 ビルド時にアバターがclusterの制限に対応しているかどうかを確認します。
@@ -57,7 +57,7 @@ clusterにVRM1.0アバターをアップロードするためには、SpringBone
 揺れものやコライダーの数が多すぎる場合は、以下のいずれかの方法で揺れものやコライダーの数を削減してください。
 
 - 単に `ATiV Generate` 系コンポーネントのついたオブジェクトを削除する。
-- もしくは、対象のオブジェクトに `uc:AtivDisableAtivComponents` コンポーネントを追加することで、Avatar Tinker Vistaのコンポーネントを無効化する。
+- もしくは、対象のオブジェクトに `ativ:AtivDisableAtivComponents` コンポーネントを追加することで、Avatar Tinker Vistaのコンポーネントを無効化する。
 
 ### ポリゴン数の削減
 
@@ -68,26 +68,26 @@ cluster VRM1.0 のポリゴン数の制限は、全メッシュの合計で72000
 おおよそVRChat PCのPoor相当までポリゴン数を削減する必要があります。
 :::
 
-Meshia Mesh Simplificationの `uc:MeshiaCascadingAvatarMeshSimplifier` を使います。
+Meshia Mesh Simplificationの `mms:MeshiaCascadingAvatarMeshSimplifier` を使います。
 
-・・・と言いたいところですが、どうやら現在 `uc:MeshiaCascadingAvatarMeshSimplifier` はVRMアバターに対してNDMFプレビューが動作しないようです。
+・・・と言いたいところですが、どうやら現在 `mms:MeshiaCascadingAvatarMeshSimplifier` はVRMアバターに対してNDMFプレビューが動作しないようです。
 NDMFプレビューを用いてリアルタイムでポリゴン削減の状況を確認するには、以下のいずれかの方法を使ってください。
 
 #### 方法１：ストロングスタイル
 
-- `uc:MeshiaMeshSimplifier` を直接 `MeshRenderer` や `SkinnedMeshRenderer` に追加して頑張ってください。
+- `mms:MeshiaMeshSimplifier` を直接 `MeshRenderer` や `SkinnedMeshRenderer` に追加して頑張ってください。
 
 #### 方法２：VRChat用アバターから設定をコピーしてくる
 
-`uc:VRCAvatarDescriptor` がついているVRChat用アバターで `uc:MeshiaCascadingAvatarMeshSimplifier` を調整してください。
+`vrc:VRCAvatarDescriptor` がついているVRChat用アバターで `mms:MeshiaCascadingAvatarMeshSimplifier` を調整してください。
 
-コンポーネント右端のメニューから `Copy Component` → `Paste Component As New` することで、VRChat用アバターからVRMアバターに `uc:MeshiaCascadingAvatarMeshSimplifier` の設定をコピーできます。
+コンポーネント右端のメニューから `Copy Component` → `Paste Component As New` することで、VRChat用アバターからVRMアバターに `mms:MeshiaCascadingAvatarMeshSimplifier` の設定をコピーできます。
 
 #### 方法３：一時的にアバターをVRChat用アバターにする
 
-一時的にVRMアバターに `uc:VRCAvatarDescriptor` をつけることで、NDMFプレビューが動作します。
+一時的にVRMアバターに `vrc:VRCAvatarDescriptor` をつけることで、NDMFプレビューが動作します。
 
-パラメータの調整作業が終わったら、忘れずに `uc:VRCAvatarDescriptor` と `uc:PipelineManager` を削除してください。
+パラメータの調整作業が終わったら、忘れずに `vrc:VRCAvatarDescriptor` と `vrc:PipelineManager` を削除してください。
 
 ### 容量の削減
 
@@ -95,9 +95,9 @@ clusterにVRM1.0アバターをアップロードするためには、アバタ�
 
 アバターのリソース使用量を削減する上では様々な要素に着目する必要がありますが、以下にいくつかのヒントを提示します：
 
-- AAO: Avatar Optimizerの `uc:TraceAndOptimize` はアバターの見た目や振る舞いに影響を与えずにビルドサイズやパフォーマンスを最適化します。
+- AAO: Avatar Optimizerの `aao:TraceAndOptimize` はアバターの見た目や振る舞いに影響を与えずにビルドサイズやパフォーマンスを最適化します。
   :::info[INFO]
-  VRMはシェイプキーの数がデータ容量に与える影響が大きいため、シェイプキー数を削減する `uc:TraceAndOptimize` はビルドサイズの削減に非常に有効です。
+  VRMはシェイプキーの数がデータ容量に与える影響が大きいため、シェイプキー数を削減する `aao:TraceAndOptimize` はビルドサイズの削減に非常に有効です。
   :::
 - テクスチャの削減を行います。
 
@@ -119,7 +119,7 @@ VRM出力においては圧縮設定は参照されません。
 :::
 
 :::tip[TIPS]
-（上級者向け）TexTransToolの `uc:AtlasTexture` を使うことで、複数マテリアルにわたってテクスチャの最適化を行います。
+（上級者向け）TexTransToolの `ttt:AtlasTexture` を使うことで、複数マテリアルにわたってテクスチャの最適化を行います。
 この設定はVRChat Mobile対応でも役に立つかもしれません。
 :::
 

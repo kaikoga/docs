@@ -6,9 +6,9 @@ sidebar_position: 101
 
 ![Inspector](img/generic_emote_sequence_source.png)
 
-`uc:EmoteItemSource` で再生されるアニメーションを、ブレンドシェイプ名で指定します。
+`ew:EmoteItemSource` で再生されるアニメーションを、ブレンドシェイプ名で指定します。
 
-`uc:GenericEmoteSequenceSource` より作成が簡単で、汎用的なアニメーションが作成可能です。
+`ew:GenericEmoteSequenceSource` より作成が簡単で、汎用的なアニメーションが作成可能です。
 
 :::note[NOTE]
 VRChatではないアバターを編集中は、設定できる項目が大幅に制限されます。
@@ -41,4 +41,4 @@ VRChatではないアバターを編集中は、設定できる項目が大幅�
 
 - `Enableアニメーション`: GameObjectの有効・無効を設定します。
 - `Blend Shapeアニメーション`: SkinnedMeshRendererのブレンドシェイプの値を設定します。
-- `インポート`: Animation Clipのアニメーションデータのうち、対応しているものをこの `uc:GenericEmoteSequenceSource` に読み込みます。
+- `インポート`: Animation Clipのアニメーションデータのうち、対応しているものをこの `ew:GenericEmoteSequenceSource` に読み込みます。

@@ -4,18 +4,18 @@ sidebar_position: 10
 
 # 使い方（Quest対応）
 
-「GameObject」→「QuestReplacer」→「New VRChat Mobile」で、PC版のマテリアルをMobile版のマテリアルに差し替える `uc:QuestReplacer` オブジェクトを作成します。
+「GameObject」→「QuestReplacer」→「New VRChat Mobile」で、PC版のマテリアルをMobile版のマテリアルに差し替える `qr:QuestReplacer` オブジェクトを作成します。
 
 :::tip[TIPS]
-コンテキストメニューから `uc:QuestReplacer` を作らなかった場合、操作対象のアバターは以下の方法で指定します。
+コンテキストメニューから `qr:QuestReplacer` を作らなかった場合、操作対象のアバターは以下の方法で指定します。
 
 - 「Targets」を指定するか、「Target Scene Objects」をチェックしてください。
-- あるいは、NDMFのある環境では、アバターの子に `uc:QuestReplacer` を移動してください。
+- あるいは、NDMFのある環境では、アバターの子に `qr:QuestReplacer` を移動してください。
 :::
 
 ## 簡単な使い方
 
-`uc:QuestReplacerDatabase` の設定を確認したのち、 `uc:QuestReplacer` の `Sync and Generate` ボタンを押せば完了です。
+`qr:QuestReplacerDatabase` の設定を確認したのち、 `qr:QuestReplacer` の `Sync and Generate` ボタンを押せば完了です。
 
 ## マニアックな使い方
 
@@ -23,14 +23,17 @@ sidebar_position: 10
 
 `Collect` を押すと操作対象のアバターに含まれるマテリアルがリストアップされます。
 
-`GenerateVRChatToonStandard Materials` を押すと、PC版のマテリアルに対応するMobile版のマテリアルが自動作成され、置き換えパターンが `uc:QuestReplacer` に登録されます。
+`GenerateVRChatToonStandard Materials` を押すと、PC版のマテリアルに対応するMobile版のマテリアルが自動作成され、置き換えパターンが `qr:QuestReplacer` に登録されます。
 
 `Save` を押すと置き換えパターンがデータベースに保存されます。
 
-NDMFを利用している場合、アバターやビルド設定に基づくプラットフォームが一致していれば置換結果がNDMFプレビューで表示されます。
-置換結果がNDMFプレビューに反映されていない場合、Switch PlatformからAndroidを選択してください。
+`ndmf:NDMF`を利用している場合、アバターやビルド設定に基づくプラットフォームが一致していれば置換結果がNDMFプレビューで表示されます。
+置換結果がNDMFプレビューに反映されていない場合、Switch PlatformからAndroidまたはiOSを選択してください。
 
-NDMFを利用しない場合、「To Left」または「To Right」でアバターに含まれるマテリアルを一括で置換します。
+`ablet:Ablet`を利用している場合、アバターやビルド設定に基づくプラットフォームが一致していれば置換結果がEnhance Inplace Previewで表示されます。
+置換結果がEnhance Inplace Previewに反映されていない場合、Switch PlatformからAndroidまたはiOSを選択してください。
+
+NDMFとAbletのいずれも利用しない場合、「To Left」または「To Right」でアバターに含まれるマテリアルを一括で置換します。
 
 ## 自動作成されるマテリアル
 

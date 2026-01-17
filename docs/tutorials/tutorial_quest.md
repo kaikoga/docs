@@ -25,9 +25,9 @@ Avatar Tinker VistaによるVRM出力とワークフローが統一されるほ�
 
 ## VRCSDK Avatarsプロジェクトの作成
 
-もしまだ作成していなければ、 `ALCOM` などでVRCSDK Avatarsのプロジェクトを作成した上で、アバターのインポートを行ってください。
+もしまだ作成していなければ、 `alcom:ALCOM` などでVRCSDK Avatarsのプロジェクトを作成した上で、アバターのインポートを行ってください。
 
-`ALCOM` があれば、 VPM Repo: のURLをリポジトリとして登録することで、VPMパッケージを追加できるようになります。
+`alcom:ALCOM` があれば、 VPM Repo: のURLをリポジトリとして登録することで、VPMパッケージを追加できるようになります。
 
 ## ライブラリのインストール
 
@@ -37,7 +37,7 @@ Avatar Tinker VistaによるVRM出力とワークフローが統一されるほ�
 
 ### NDMFのインストール
 
-`Modular Avatar` を利用しているプロジェクトには既にインストールされているはずです。
+`ma:Modular Avatar` を利用しているプロジェクトには既にインストールされているはずです。
 
 （アバターが未改変、などの理由で）まだインストールされていない場合は、NDMFをインストールしてください。
 
@@ -46,9 +46,11 @@ Docs: https://modular-avatar.nadena.dev/ja/ \
 VPM Repo: https://vpm.nadena.dev/vpm.json \
 アバターを非破壊改変するツールを連携して動作させるために使います。
 
-### vpm.kaikoga.netのインストール
+### ATiV Suiteのインストール
 
 VPM Repo: https://vpm.kaikoga.net/index.json
+
+ATiV Suite をインストールするか、以下の個別ライブラリをインストールしてください。
 
 **QuestReplacer**\
 VRChat Mobile用マテリアルの生成と、ビルド時のマテリアル差し替えを行います。
@@ -70,6 +72,10 @@ VPM Repo: https://vpm.anatawa12.com/vpm.json \
 
 本チュートリアルでは以上のツールの使い方の説明はしません。
 使い方はそれぞれのリンク先を参照してください。
+
+## プロジェクトの準備
+
+特にすることはありません。
 
 ## シーンの準備
 
@@ -93,14 +99,14 @@ VRChat PCにアップロードするためのアバターとは別のオブジ�
 
 VRChat Mobile向けにアバターをアップロードするためには、マテリアルがVRChat Mobile対応である必要があります。
 
-VRC Quest Toolsの `uc:AvatarConverterSettings` を設定することでアバタービルド時にマテリアルを自動変換できますが、今回はこれを直接使用せず、QuestReplacer経由で使います。
+VRC Quest Toolsの `vqt:AvatarConverterSettings` を設定することでアバタービルド時にマテリアルを自動変換できますが、今回はこれを直接使用せず、QuestReplacer経由で使います。
 
 :::info[INFO]
 VRC Quest ToolsをインストールしなくてもQuestReplacerは利用できますが、その場合、Quest対応シェーダー変換の精度が落ちます。
 シェーダーを生成した後に見た目を微調整する作業が増えます。
 :::
 
-アバターを右クリック→ `Quest Replacer` → `New VRChat Mobile` から、 `uc:QuestReplacer` を作成してください。
+アバターを右クリック→ `Quest Replacer` → `New VRChat Mobile` から、 `qr:QuestReplacer` を作成してください。
 
 QuestReplacer の Database が必要に応じて自動生成されるので、クリックして参照し、必要に応じて `Generated Directory` 以下の設定を確認してください。
 
@@ -108,7 +114,7 @@ QuestReplacer の Database が必要に応じて自動生成されるので、�
 生成されたQuestReplacer DatabaseはAssets以下の好きな場所に置いて良いです。
 :::
 
-アバターに戻ったら、 `uc:QuestReplacer` の `Sync and Generate` ボタンを押してください。
+アバターに戻ったら、 `qr:QuestReplacer` の `Sync and Generate` ボタンを押してください。
 
 :::info[INFO]
 シェーダーを変更するため、アバターの見た目がおかしくなることがあります。
@@ -120,14 +126,14 @@ QuestReplacer の Database が必要に応じて自動生成されるので、�
 
 VRChat Mobile向けにアバターをアップロードするためには、Avatar Dynamics（揺れもの）の制限を満たす必要があります。
 
-VRC Quest Toolsの `uc:AvatarConverterSettings` から `Avatar Dynamics Settings` を調整することで揺れものを削減できますが、今回はこれを使用せず、Avatar Tinker Vistaの `uc:AtivReduceDynamics` を使います。
+VRC Quest Toolsの `vqt:AvatarConverterSettings` から `Avatar Dynamics Settings` を調整することで揺れものを削減できますが、今回はこれを使用せず、Avatar Tinker Vistaの `ativ:AtivReduceDynamics` を使います。
 
-アバターの子に適当な空オブジェクトを追加して、 `uc:AtivReduceDynamics` コンポーネントを追加してください。
+アバターの子に適当な空オブジェクトを追加して、 `ativ:AtivReduceDynamics` コンポーネントを追加してください。
 
 `Add All VRC PhysBones` を押すと全てのVRC PhysBoneの対象Transformがリストに追加されるので、見た目への影響が少ない揺れものをリストから削除してください。
 
 :::tip[TIPS]
-代わりにAvatar Tinker Vistaの `uc:AtivDeleteAllVRCPhysBones` をアバターに追加することで、全てのVRC PhysBoneを問答無用で削除することもできます。
+代わりにAvatar Tinker Vistaの `ativ:AtivDeleteAllVRCPhysBones` をアバターに追加することで、全てのVRC PhysBoneを問答無用で削除することもできます。
 :::
 
 ### 容量の削減
@@ -136,7 +142,7 @@ VRChat Mobile向けにアバターをアップロードするためには、ア�
 
 アバターのビルドサイズを削減する上では様々な要素に着目する必要がありますが、以下にいくつかのヒントを提示します：
 
-- AAO: Avatar Optimizerの `uc:TraceAndOptimize` はアバターの見た目や振る舞いに影響を与えずにビルドサイズやパフォーマンスを最適化します。
+- AAO: Avatar Optimizerの `aao:TraceAndOptimize` はアバターの見た目や振る舞いに影響を与えずにビルドサイズやパフォーマンスを最適化します。
 - テクスチャの削減を行います。
 
 ### テクスチャの削減

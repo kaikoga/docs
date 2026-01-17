@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # ATiV Export VRM0+1 UI
 
-このコンポーネントは何もしませんが、UnityのインスペクタにNDMFでVRMをエクスポートするためのボタンを表示します。
+このコンポーネントは何もしませんが、Unityのインスペクタに `ndmf:NDMF` または `ablet:Ablet` でVRMをエクスポートするためのボタンを表示します。
 
 ## 役に立つ状況
 

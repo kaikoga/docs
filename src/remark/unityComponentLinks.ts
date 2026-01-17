@@ -23,8 +23,6 @@ export default function plugin(): Transformer<Root> {
             value: id,
           }],
         });
-      } else if (id.startsWith('uc:')) {
-        console.log(`unknown component name found: ${id}`)
       }
     });
   };

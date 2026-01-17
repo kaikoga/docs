@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # ATiV Merge VRM1 SpringBones
 
-`uc:Vrm10Instance` にSpringBoneを追加登録します。
+`univrm1:Vrm10Instance` にSpringBoneを追加登録します。
 
 このコンポーネントで追加するSpringBoneが参照するSpringBone JointやSpringBone Colliderはアバターに追加されている必要があります。
 
@@ -19,4 +19,4 @@ Modular AvatarでマージするプレハブにVRM1 SpringBoneの追加設定を
 アバター内の任意の場所にコンポーネントを追加してください。
 
 このコンポーネントそのものは揺れものとしては機能しません。
-NDMFのApply on Playで変換するか、コンテキストメニューからBakeしてください。
+`ndmf:NDMF` や `ablet:Ablet` のApply on Playで変換するか、コンテキストメニューからBakeしてください。

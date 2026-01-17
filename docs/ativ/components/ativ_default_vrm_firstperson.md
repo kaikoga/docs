@@ -4,7 +4,11 @@ sidebar_position: 1
 
 # ATiV Default VRM0+1 FirstPerson
 
-`uc:VRMFirstPerson` / `uc:Vrm10Instance` のFirstPerson設定が行われていないRendererに対して指定されたデフォルト値を割り当てます。
+:::note[NOTE]
+このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
+:::
+
+`univrm0:VRMFirstPerson` / `univrm1:Vrm10Instance` のFirstPerson設定が行われていないRendererに対して指定されたデフォルト値を割り当てます。
 
 ## 役に立つ状況
 

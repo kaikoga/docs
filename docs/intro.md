@@ -12,7 +12,7 @@ Documents for various tools by kaikoga.
 
 ## Install from VPM
 
-VPM packages are available through [ALCOM](https://vrc-get.anatawa12.com/ja/alcom/).
+VPM packages are available through `alcom:ALCOM`.
 Preferred for both VRChat users and not VRChat users.
 
 <a href="vcc://vpm/addRepo?url=https%3A%2F%2Fvpm.kaikoga.net%2Findex.json">Add vpm.kaikoga.net to ALCOM / VCC</a>
@@ -34,24 +34,23 @@ VRChat users can alson use VRChat Creator Companion.
 
 ## Install UniVRM
 
-It is recommended to install UniVRM in `Packages` directory, not `Assets` directory.
+Some of the tools that work with UniVRM support UniVRM v0.131.0 or higher.
 
-To do so, please install UniVRM as a UPM git package.
-
-Add URLs below by either method:
+To install UniVRM as a UPM git package, add URLs below by either method:
 
 - Open the Package Manager by menu bar -> `Window` -> `Package Manager`, open the "+" menu at the upper left and select `Add package from git URL...`.
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/UniGLTF#v0.131.0
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM#v0.131.0
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM10#v0.131.0
 - Or, add the URLs under `dependencies` of `Packages/manifest.json`. 
 
+```
+    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Packages/UniGLTF#v0.131.0",
+    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM#v0.131.0",
+    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM10#v0.131.0",
+```
 
-```
-    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1",
-    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1",
-    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1",
-```
+It is also possible to install UniVRM with unitypackage.
 
 [//]: # (編集時の注意：jaもある)
 [//]: # (編集時の注意：ここを更新したらチュートリアルも更新すること)

@@ -8,9 +8,11 @@ import aaoComponents from './unityComponents/aaoComponents';
 import mmsComponents from './unityComponents/mmsComponents';
 import tttComponents from './unityComponents/tttComponents';
 import vqtComponents from './unityComponents/vqtComponents';
+import vrcfComponents from './unityComponents/vrcfComponents';
 import ativComponents from './unityComponents/ativComponents';
 import ewComponents from './unityComponents/ewComponents';
 import qrComponents from './unityComponents/qrComponents';
+import abletComponents from './unityComponents/abletComponents';
 import modularizerComponents from './unityComponents/modularizerComponents';
 import notComponents from './unityComponents/notComponents';
 
@@ -23,9 +25,11 @@ const unityComponentsDef: UnityComponentItem[] = [
   ...mmsComponents,
   ...tttComponents,
   ...vqtComponents,
+  ...vrcfComponents,
   ...ativComponents,
   ...ewComponents,
   ...qrComponents,
+  ...abletComponents,
   ...modularizerComponents,
   ...notComponents,
 ];

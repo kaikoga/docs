@@ -2,12 +2,12 @@ import UnityComponentItem from '@site/src/unityComponentItem';
 
 const modularizerComponents: UnityComponentItem[] = [
   {
-    id: "uc:ModularizerConfig",
+    id: "modularizer:ModularizerConfig",
     displayName: "NuguminTool Config",
     link: "modularizer/manual"
   },
 ].map((x: any) => {
-  x.className = "ucLinkModularizer";
+  x.classNames = ["ucLinkModularizer"];
   return x;
 });
 

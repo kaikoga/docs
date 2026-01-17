@@ -1,39 +1,39 @@
 import UnityComponentItem from '@site/src/unityComponentItem';
 
-const ativComponents: UnityComponentItem[] = [
+const univrm0Components: UnityComponentItem[] = [
   {
-    id: "uc:VRMMeta",
+    id: "univrm0:VRMMeta",
     displayName: "VRM Meta",
     link: ""
   },
   {
-    id: "uc:VRMMetaObject",
+    id: "univrm0:VRMMetaObject",
     displayName: "VRM Meta Object",
     link: ""
   },
   {
-    id: "uc:VRMBlendShapeProxy",
+    id: "univrm0:VRMBlendShapeProxy",
     displayName: "VRM Blend Shape Proxy",
     link: ""
   },
   {
-    id: "uc:BlendShapeAvatar",
+    id: "univrm0:BlendShapeAvatar",
     displayName: "Blend Shape Avatar",
     link: ""
   },
   {
-    id: "uc:VRMSpringBone",
+    id: "univrm0:VRMSpringBone",
     displayName: "VRM Spring Bone",
     link: ""
   },
   {
-    id: "uc:VRMFirstPerson",
+    id: "univrm0:VRMFirstPerson",
     displayName: "VRM First Person",
     link: ""
   },
 ].map((x: any) => {
-  x.className = "ucLinkUniVRM0";
+  x.classNames = ["ucLinkUniVRM0"];
   return x;
 });
 
-export default ativComponents;
+export default univrm0Components;

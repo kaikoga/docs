@@ -13,9 +13,9 @@ Emote Wizardを用いてVRChatアバターを編集できます。
 
 ## セットアップ方法
 
-アバターのルートに `uc:VRCAvatarDescriptor` コンポーネントが付与されている場合、VRChatアバターとして認識されます。
+アバターのルートに `vrc:VRCAvatarDescriptor` コンポーネントが付与されている場合、VRChatアバターとして認識されます。
 
-Emote Wizardは、Avatar SDK 3.0用の `uc:VRCAvatarDescriptor` のうち、以下の設定を占有して完全に上書きします。
+Emote Wizardは、Avatar SDK 3.0用の `vrc:VRCAvatarDescriptor` のうち、以下の設定を占有して完全に上書きします。
 
 - Playable Layers
   - Gesture Layer
@@ -26,4 +26,4 @@ Emote Wizardは、Avatar SDK 3.0用の `uc:VRCAvatarDescriptor` のうち、以�
   - Expressions Menu
   - Expression Parameters
 
-これ以外の設定はEmote Wizardでは変更しません。 `uc:VRCAvatarDescriptor` および `uc:PipelineManager` を通して設定してください。
+これ以外の設定はEmote Wizardでは変更しません。 `vrc:VRCAvatarDescriptor` および `vrc:PipelineManager` を通して設定してください。

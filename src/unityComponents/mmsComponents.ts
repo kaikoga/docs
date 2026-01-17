@@ -2,17 +2,17 @@ import UnityComponentItem from '@site/src/unityComponentItem';
 
 const mmsComponents: UnityComponentItem[] = [
   {
-    id: "uc:MeshiaMeshSimplifier",
+    id: "mms:MeshiaMeshSimplifier",
     displayName: "Meshia Mesh Simplifier",
     link: ""
   },
   {
-    id: "uc:MeshiaCascadingAvatarMeshSimplifier",
+    id: "mms:MeshiaCascadingAvatarMeshSimplifier",
     displayName: "Meshia Cascading Avatar Mesh Simplifier",
     link: ""
   },
 ].map((x: any) => {
-  x.className = "ucLinkMMS";
+  x.classNames = ["ucLinkMMS"];
   return x;
 });
 

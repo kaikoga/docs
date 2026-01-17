@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # アバター出力チュートリアル
 
-現在は厳選されたチュートリアルのみが存在しますが、読み方次第で多くのユースケースに適用可能です。
+現在は厳選されたチュートリアルのみ存在しますが、読み方次第で多くのユースケースに適用可能です。
 
 ## 読み方ガイド
 
@@ -35,26 +35,28 @@ Avatar Tinker Vista はVRM0.xアバターとVRM1.0アバターを同様に扱う
 
 ### VRM1.0アバターを出力したい
 
-:::warning[WARNING]
-VRCSDKを使わない方法もありますが、一般的な手法ではないので、不具合やプラグインの相性問題が多く発生することが予想されます。
-
-VRCSDKを既に利用している人は、おそらくVRCSDKを使った方が簡単です。
+:::info[INFO]
+VRChat想定アバターを扱いたい人、あるいはVRCSDKを既に利用している人は、おそらくVRCSDKを使った方が簡単です。
 :::
+
 - BOOTHのVRChat想定アバターを扱いたい
   - → [チュートリアル：VRM1](tutorial_vrm1.md) に従ってください。
-- BOOTHのVRChat想定アバターを扱わず、VRCSDKを使ったことがない
-  - → [チュートリアル：VRM1 No VRCSDK](advanced/tutorial_novrc_vrm1.md) にVRCSDKを使わずにNDMFを利用するための情報があります。
+- BOOTHのVRChat想定アバターを扱わず、VRCSDKを使ったことがない・使わない
+  - → [チュートリアル：Ablet only VRM1](tutorial_ablet_vrm1.md) に従ってください。
 
 ### VRM1.0アバターを出力して、clusterで使いたい
 
 - BOOTHのVRChat想定アバターを扱いたい
   - → [チュートリアル：VRM1](tutorial_vrm1.md) に従ったのち、 [チュートリアル＋：VRM1 cluster](tutorial_vrm1_cluster.md) に従ってください。
-- BOOTHのVRChat想定アバターを扱わず、VRCSDKを使ったことがない
-  - → [チュートリアル：VRM1 No VRCSDK](advanced/tutorial_novrc_vrm1.md) にVRCSDKを使わずにNDMFを利用するための情報があります。
+- BOOTHのVRChat想定アバターを扱わず、VRCSDKを使ったことがない・使わない
+  - → [チュートリアル：Ablet only VRM1](tutorial_ablet_vrm1.md) に従ってください。
   - → cluster VRM1.0の制限に適合するには、 [チュートリアル＋：VRM1 cluster](tutorial_vrm1_cluster.md) も参考にしてください。
 
 ### それ以外のプラットフォームに出力したい
 
-- → [チュートリアル：VRM1 No VRCSDK](advanced/tutorial_novrc_vrm1.md) に従ってください。
-  - というよりは、 [2024-12-08 他のアプリケーションでModular Avatarを動かす方法 | Haï~](https://docs.hai-vr.dev/docs/research/other/modular-avatar-on-other-apps-ja) をよく読んでください。
+- NDMFを使わなくてよい
+  - [チュートリアル：Ablet only VRM1](tutorial_ablet_vrm1.md) の情報を参考にしてください。
+  - Abletが対象のプラットフォームに対応するのを待つ必要があるかもしれません。
+- NDMFを使いたい
+  -  [2024-12-08 他のアプリケーションでModular Avatarを動かす方法 | Haï~](https://docs.hai-vr.dev/docs/research/other/modular-avatar-on-other-apps-ja) をよく読んでください。
   - 一般的な手法ではないので、多くの困難が予想されます。

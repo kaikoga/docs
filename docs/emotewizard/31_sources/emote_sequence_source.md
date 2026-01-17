@@ -6,9 +6,9 @@ sidebar_position: 1
 
 ![Inspector](img/emote_sequence_source.png)
 
-`uc:EmoteItemSource` で再生されるアニメーションを、Animation Clipで指定します。
+`ew:EmoteItemSource` で再生されるアニメーションを、Animation Clipで指定します。
 
-`uc:GenericEmoteSequenceSource` よりきめ細やかな制御が可能です。
+`ew:GenericEmoteSequenceSource` よりきめ細やかな制御が可能です。
 
 - `レイヤー`: このアニメーションがどのレイヤーに所属するか
 - `グループ`: アニメーションの排他制御を行います。グループが同じアニメーションごとに、いずれか１つのアニメーションが選択されます。

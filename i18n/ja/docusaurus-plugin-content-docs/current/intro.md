@@ -12,7 +12,7 @@ kaikogaが作ったいろんなツールのドキュメント置き場です。
 
 ## VPMパッケージをインストール
 
-ツールのVPMパッケージを [ALCOM](https://vrc-get.anatawa12.com/ja/alcom/) でインストールすることができます。
+ツールのVPMパッケージを `alcom:ALCOM` でインストールすることができます。
 VRChatユーザー以外の方も利用できます。
 
 <a href="vcc://vpm/addRepo?url=https%3A%2F%2Fvpm.kaikoga.net%2Findex.json">ALCOMまたはVCCにvpm.kaikoga.netを追加する</a>
@@ -34,23 +34,23 @@ VRChatユーザーはVRChat Creator Companionを使うこともできます。
 
 ## UniVRMをインストール（オプション）
 
-UniVRMと連携するツールは、 `Assets` ではなく `Packages` フォルダにUniVRMをインストールすることが推奨されます。
+UniVRMと連携するツールはUniVRM v0.131.0以上をサポートします。
 
-そのためには、UPM gitパッケージとしてUniVRMをインストールしてください。
-
-以下のURLを、いずれかの方法で追加してください。
+UPM gitパッケージとしてUniVRMをインストールするには、以下のURLを、いずれかの方法で追加してください。
  
 - メニューバー → `Window` → `Package Manager` からPackage Managerを開き、左上の「＋」メニューから `Add package from git URL...` してください。
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1
-  - https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/UniGLTF#v0.131.0
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM#v0.131.0
+  - https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM10#v0.131.0
 - または、 `Packages/manifest.json` の `dependencies` 以下に追記してください。
 
 ```
-    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.130.1",
-    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.130.1",
-    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.130.1",
+    "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Packages/UniGLTF#v0.131.0",
+    "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM#v0.131.0",
+    "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Packages/VRM10#v0.131.0",
 ```
+
+unitypackageによるインストールも可能です。
 
 [//]: # (編集時の注意：enもある)
 [//]: # (編集時の注意：ここを更新したらチュートリアルも更新すること)

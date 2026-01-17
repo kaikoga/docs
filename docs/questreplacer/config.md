@@ -6,23 +6,23 @@ sidebar_position: 23
 
 ![QuestReplacer](img/quest_replacer.png)
 
-`GameObject` → `QuestReplacer` 以下の項目を選択することで、 `uc:QuestReplacer` コンポーネントのついたオブジェクトをアバター以下に生成します。
+`GameObject` → `QuestReplacer` 以下の項目を選択することで、 `qr:QuestReplacer` コンポーネントのついたオブジェクトをアバター以下に生成します。
 
-QuestReplacerの設定はこのコンポーネントと、 `uc:QuestReplacerDatabase` で行います。
+QuestReplacerの設定はこのコンポーネントと、 `qr:QuestReplacerDatabase` で行います。
 
 :::info[INFO]
-QuestReplacerの能力を最大限に引き出すには、 `uc:QuestReplacerDatabase` が必要になります。
+QuestReplacerの能力を最大限に引き出すには、 `qr:QuestReplacerDatabase` が必要になります。
 :::
 
-`uc:QuestReplacerDatabase` は、 `uc:QuestReplacer` の `Database` に設定されます。
+`qr:QuestReplacerDatabase` は、 `qr:QuestReplacer` の `Database` に設定されます。
 
 ## QuestReplacerの設定
 
-QuestReplacer の一部の挙動は、 `uc:QuestReplacer` の `Override Config` を有効にすることで上書き可能です。
+QuestReplacer の一部の挙動は、 `qr:QuestReplacer` の `Override Config` を有効にすることで上書き可能です。
 
 - `Platform`
   - QuestReplacerの対象プラットフォームを指定します。
-    メニューから `uc:QuestReplacer` を生成する場合の初期設定や、NDMFプレビューを有効にする条件に関わります。 
+    メニューから `qr:QuestReplacer` を生成する場合の初期設定や、NDMFプレビューを有効にする条件に関わります。 
 - `Material Generation Mode`
   - 置き換えマテリアル自動生成の挙動を変更します。
     [拡張コンバート](ext_convert.md) も参照してください。 
@@ -39,7 +39,7 @@ QuestReplacer の一部の挙動は、 `uc:QuestReplacer` の `Override Config` 
 
 ### Sync and Generate
 
-`Sync and Generate` を押すことで、自動で `uc:QuestReplacer` とデータベースの更新を行います。
+`Sync and Generate` を押すことで、自動で `qr:QuestReplacer` とデータベースの更新を行います。
 一般的なユースケースで有効です。
 
 ### 詳細な操作
@@ -52,8 +52,8 @@ QuestReplacer の一部の挙動は、 `uc:QuestReplacer` の `Override Config` 
 - `+`
   - 置き換えペアに対して、置き換えマテリアルを自動生成します。
 - `Cleanup`
-  - 未指定の置き換えペアを `uc:QuestReplacer` から取り除きます。
+  - 未指定の置き換えペアを `qr:QuestReplacer` から取り除きます。
 - `Collect`
-  - マテリアルやメッシュ、アニメーションクリップを収集して、未設定の置き換えペアを `uc:QuestReplacer` に追加します。
+  - マテリアルやメッシュ、アニメーションクリップを収集して、未設定の置き換えペアを `qr:QuestReplacer` に追加します。
 - `To Left` / `To Right`
   - 置き換えペアを破壊的に適用します。 `Platform` 設定は無視されます。
