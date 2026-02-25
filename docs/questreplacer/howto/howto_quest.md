@@ -19,13 +19,13 @@ sidebar_position: 10
 
 ## マニアックな使い方
 
-`Load` を押すと置き換えパターンがデータベースから読み込まれます。
+`読み込み` | `Load` を押すと置き換えパターンがデータベースから読み込まれます。
 
-`Collect` を押すと操作対象のアバターに含まれるマテリアルがリストアップされます。
+`収集` | `Collect` を押すと操作対象のアバターに含まれるマテリアルがリストアップされます。
 
-`GenerateVRChatToonStandard Materials` を押すと、PC版のマテリアルに対応するMobile版のマテリアルが自動作成され、置き換えパターンが `qr:QuestReplacer` に登録されます。
+`Ext Convert VRChat Toon Standard でマテリアルを変換` | `Ext Convert VRChat Toon Standard Materials` を押すと、PC版のマテリアルに対応するMobile版のマテリアルが自動作成され、置き換えパターンが `qr:QuestReplacer` に登録されます。
 
-`Save` を押すと置き換えパターンがデータベースに保存されます。
+`書き出し` | `Save` を押すと置き換えパターンがデータベースに保存されます。
 
 `ndmf:NDMF`を利用している場合、アバターやビルド設定に基づくプラットフォームが一致していれば置換結果がNDMFプレビューで表示されます。
 置換結果がNDMFプレビューに反映されていない場合、Switch PlatformからAndroidまたはiOSを選択してください。
@@ -33,7 +33,7 @@ sidebar_position: 10
 `ablet:Ablet`を利用している場合、アバターやビルド設定に基づくプラットフォームが一致していれば置換結果がEnhance Inplace Previewで表示されます。
 置換結果がEnhance Inplace Previewに反映されていない場合、Switch PlatformからAndroidまたはiOSを選択してください。
 
-NDMFとAbletのいずれも利用しない場合、「To Left」または「To Right」でアバターに含まれるマテリアルを一括で置換します。
+NDMFとAbletのいずれも利用しない場合、 `Leftへ` | `To Left` または `Rightへ` | `To Right` でアバターに含まれるマテリアルを一括で置換します。
 
 ## 自動作成されるマテリアル
 

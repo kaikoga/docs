@@ -25,7 +25,7 @@ Prefab Variantを使う場合は、元のアバターに対してではなく、
 
 非破壊改変時に限り、QuestReplacerはAnimationControllerアセットに含まれるAnimation Clipの置き換えや、Animation Clipアセットに含まれるマテリアル変更アニメーションに対してマテリアルの置き換えを適用できます。
 
-更に、 `Material` の `Collect` ボタンはAnimation Clipに含まれるマテリアルを抽出します。
+更に、 `マテリアル` | `Material` の `収集` | `Collect` ボタンはAnimation Clipに含まれるマテリアルを抽出します。
 
 :::info[INFO]
 非破壊改変ではない場合、アバターが直接参照しているAnimation Clipのみが置き換えられ、Animation Clip自体は変更されません。

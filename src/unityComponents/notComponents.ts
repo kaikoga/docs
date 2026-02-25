@@ -26,6 +26,12 @@ const notComponents: UnityComponentItem[] = [
     classNames: ["ucLinkNot", "ucLinkMA"]
   },
   {
+    id: "cl4ee:CL4EE",
+    displayName: "CL4EE",
+    link: "https://github.com/anatawa12/CustomLocalization4EditorExtension",
+    classNames: ["ucLinkNot", "ucLinkNone"]
+  },
+  {
     id: "Chillaxins",
     displayName: "Chillaxins",
     link: "https://docs.hai-vr.dev/docs/products/chillaxins",

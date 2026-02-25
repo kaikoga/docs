@@ -14,46 +14,46 @@ QuestReplacerの設定はこのコンポーネントと、 `qr:QuestReplacerData
 QuestReplacerの能力を最大限に引き出すには、 `qr:QuestReplacerDatabase` が必要になります。
 :::
 
-`qr:QuestReplacerDatabase` は、 `qr:QuestReplacer` の `Database` に設定されます。
+`qr:QuestReplacerDatabase` は、 `qr:QuestReplacer` の `データベース` | `Database` に設定されます。
 
 ## QuestReplacerの設定
 
-QuestReplacer の一部の挙動は、 `qr:QuestReplacer` の `Override Config` を有効にすることで上書き可能です。
+QuestReplacer の一部の挙動は、 `qr:QuestReplacer` の `コンフィグを上書き` | `Override Config` を有効にすることで上書き可能です。
 
-- `Platform`
+- `プラットフォーム` | `Platform`
   - QuestReplacerの対象プラットフォームを指定します。
     メニューから `qr:QuestReplacer` を生成する場合の初期設定や、NDMFプレビューを有効にする条件に関わります。 
-- `Material Generation Mode`
+- `マテリアル生成モード` | `Material Generation Mode`
   - 置き換えマテリアル自動生成の挙動を変更します。
     [拡張コンバート](ext_convert.md) も参照してください。 
-- `Manage Materials`
+- `マテリアルを管理` | `Manage Materials`
   - このQuestReplacerでマテリアルを扱うものとして設定します。
-- `Manage Meshes`
+- `メッシュを管理` | `Manage Meshes`
   - このQuestReplacerでメッシュを扱うものとして設定します。
-- `Manage Animation Clips`
+- `アニメーションクリップを管理` | `Manage Animation Clips`
   - このQuestReplacerでアニメーションクリップを扱うものとして設定します。
-- `NDMF VRChat Animations`
+- `NDMF VRChat アニメーション` | `NDMF VRChat Animations`
   - 有効にした場合、NDMFの非破壊編集時に限りアニメーションクリップ内部のマテリアルも置き換えの対象になります。
 
 ## QuestReplacerの操作
 
-### Sync and Generate
+### 生成して同期
 
-`Sync and Generate` を押すことで、自動で `qr:QuestReplacer` とデータベースの更新を行います。
+`生成して同期` | `Sync and Generate` を押すことで、自動で `qr:QuestReplacer` とデータベースの更新を行います。
 一般的なユースケースで有効です。
 
 ### 詳細な操作
 
-`Pairs` 以下のUIは、置き換えパターンを細かく操作したい時に使います。
+`ペア` | `Pairs` 以下のUIは、置き換えパターンを細かく操作したい時に使います。
 これらの操作はデータベースを更新しないため、最後にデータベースへのセーブを行うことを推奨します。
 
 主なボタンについて説明します。
 
 - `+`
   - 置き換えペアに対して、置き換えマテリアルを自動生成します。
-- `Cleanup`
+- `クリーンアップ` | `Cleanup`
   - 未指定の置き換えペアを `qr:QuestReplacer` から取り除きます。
-- `Collect`
+- `収集` | `Collect`
   - マテリアルやメッシュ、アニメーションクリップを収集して、未設定の置き換えペアを `qr:QuestReplacer` に追加します。
-- `To Left` / `To Right`
+- `左へ` | `To Left` 、 `右へ` | `To Right`
   - 置き換えペアを破壊的に適用します。 `Platform` 設定は無視されます。
