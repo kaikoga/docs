@@ -32,14 +32,14 @@ ATiV Suiteをインストールすることで、以下のパッケージの多�
 
 - https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v2.1.0
 - https://github.com/kaikoga/AdLib-Unity.git#v2.0.0
-- https://github.com/kaikoga/Ablet-Unity.git#v2.3.0
-- https://github.com/kaikoga/Loch-Unity.git#v2.0.0
+- https://github.com/kaikoga/Ablet-Unity.git#v2.3.1
+- https://github.com/kaikoga/Loch-Unity.git#v2.0.1
 
 ```
 "net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v2.1.0",
 "net.kaikoga.adlib": "https://github.com/kaikoga/AdLib-Unity.git#v2.0.0",
-"net.kaikoga.ablet": "https://github.com/kaikoga/Ablet-Unity.git#v2.3.0",
-"net.kaikoga.loch": "https://github.com/kaikoga/Loch-Unity.git#v2.0.0",
+"net.kaikoga.ablet": "https://github.com/kaikoga/Ablet-Unity.git#v2.3.1",
+"net.kaikoga.loch": "https://github.com/kaikoga/Loch-Unity.git#v2.0.1",
 ```
 
 #### Emote Wizard
@@ -60,10 +60,10 @@ ATiV Suiteをインストールすることで、以下のパッケージの多�
 
 #### Avatar Ranker Vista
 
-- https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.2.0
+- https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.3.0
 
 ```
-"net.kaikoga.arv": "https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.2.0",
+"net.kaikoga.arv": "https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.3.0",
 ```
 
 ### NuguminTool
