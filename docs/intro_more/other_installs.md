@@ -18,10 +18,10 @@ Unity標準のPackage Managerからパッケージを個別にインストール
 
 ### ATiV Suite
 
-- https://github.com/kaikoga/AtivSuite-Unity.git#v2.2.0
+- https://github.com/kaikoga/AtivSuite-Unity.git#v3.0.0
 
 ```
-"net.kaikoga.ativ.suite": "https://github.com/kaikoga/AtivSuite-Unity.git#v2.2.0",
+"net.kaikoga.ativ.suite": "https://github.com/kaikoga/AtivSuite-Unity.git#v3.0.0",
 ```
 
 :::info[INFO]
@@ -30,40 +30,40 @@ ATiV Suiteをインストールすることで、以下のパッケージの多�
 
 #### Avatar Tinker Vista + AdLib + Ablet + Loch
 
-- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v2.1.0
-- https://github.com/kaikoga/AdLib-Unity.git#v2.0.0
-- https://github.com/kaikoga/Ablet-Unity.git#v2.3.1
-- https://github.com/kaikoga/Loch-Unity.git#v2.0.1
+- https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v3.0.0
+- https://github.com/kaikoga/AdLib-Unity.git#v3.0.0
+- https://github.com/kaikoga/Ablet-Unity.git#v3.0.0
+- https://github.com/kaikoga/Loch-Unity.git#v3.0.0
 
 ```
-"net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v2.1.0",
-"net.kaikoga.adlib": "https://github.com/kaikoga/AdLib-Unity.git#v2.0.0",
-"net.kaikoga.ablet": "https://github.com/kaikoga/Ablet-Unity.git#v2.3.1",
-"net.kaikoga.loch": "https://github.com/kaikoga/Loch-Unity.git#v2.0.1",
+"net.kaikoga.ativ": "https://github.com/kaikoga/AvatarTinkerVista-Unity.git#v3.0.0",
+"net.kaikoga.adlib": "https://github.com/kaikoga/AdLib-Unity.git#v3.0.0",
+"net.kaikoga.ablet": "https://github.com/kaikoga/Ablet-Unity.git#v3.0.0",
+"net.kaikoga.loch": "https://github.com/kaikoga/Loch-Unity.git#v3.0.0",
 ```
 
 #### Emote Wizard
 
-- https://github.com/kaikoga/EmoteWizard-Unity.git#v2.1.0
+- https://github.com/kaikoga/EmoteWizard-Unity.git#v3.0.0
 
 ```
-"net.kaikoga.emotewizard": "https://github.com/kaikoga/EmoteWizard-Unity.git#v2.1.0",
+"net.kaikoga.emotewizard": "https://github.com/kaikoga/EmoteWizard-Unity.git#v3.0.0",
 ```
 
 #### QuestReplacer
 
-- https://github.com/kaikoga/QuestReplacer-Unity.git#v2.1.0
+- https://github.com/kaikoga/QuestReplacer-Unity.git#v3.0.0
 
 ```
-"net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git#v2.1.0",
+"net.kaikoga.questreplacer": "https://github.com/kaikoga/QuestReplacer-Unity.git#v3.0.0",
 ```
 
 #### Avatar Ranker Vista
 
-- https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.3.0
+- https://github.com/kaikoga/AvatarRankerVista-Unity.git#v3.0.0
 
 ```
-"net.kaikoga.arv": "https://github.com/kaikoga/AvatarRankerVista-Unity.git#v2.3.0",
+"net.kaikoga.arv": "https://github.com/kaikoga/AvatarRankerVista-Unity.git#v3.0.0",
 ```
 
 ### NuguminTool

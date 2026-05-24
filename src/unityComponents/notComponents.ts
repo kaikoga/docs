@@ -2,6 +2,12 @@ import UnityComponentItem from '@site/src/unityComponentItem';
 
 const notComponents: UnityComponentItem[] = [
   {
+    id: "arv:AvatarRankerVista",
+    displayName: "Avatar Ranker Vista",
+    link: "/arv",
+    classNames: ["ucLinkARV"]
+  },
+  {
     id: "alcom:ALCOM",
     displayName: "ALCOM",
     link: "https://vrc-get.anatawa12.com/alcom/",

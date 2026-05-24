@@ -4,6 +4,8 @@ sidebar_position: 300
 
 # Dress Change Wizard
 
+<PlatformBadge id="VRChat" />
+
 ![Inspector](img/dress_change_wizard.png)
 
 一つのパラメータで切り替わる一連の `ew:EmoteItemSource` を生成します。

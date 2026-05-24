@@ -2,6 +2,11 @@ import UnityComponentItem from '@site/src/unityComponentItem';
 
 const ewComponents: UnityComponentItem[] = [
   {
+    id: "ew:EmoteWizard",
+    displayName: "Emote Wizard",
+    link: "/emotewizard",
+  },
+  {
     id: "ew:EmoteWizardRoot",
     displayName: "Emote Wizard Root",
     link: "/emotewizard/emote_wizard_root",

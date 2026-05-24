@@ -4,6 +4,8 @@ sidebar_position: 0
 
 # Emote Item Source
 
+<PlatformBadge id="VRChat" />
+
 ![Inspector](img/emote_item_source.png)
 
 VRChatアバターのExpression Parameterに連動するアニメーションをここに登録します。

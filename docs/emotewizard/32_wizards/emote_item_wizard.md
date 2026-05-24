@@ -4,6 +4,8 @@ sidebar_position: 101
 
 # Emote Item Wizard
 
+<PlatformBadge id="VRChat" />
+
 ![Inspector](img/emote_item_wizard.png)
 
 単発の `ew:EmoteItemSource` を生成します。

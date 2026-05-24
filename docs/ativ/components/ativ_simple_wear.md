@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # ATiV Simple Wear
 
+<PlatformBadge id="Any" />
+
 :::note[NOTE]
 このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
 :::
@@ -26,7 +28,7 @@ sidebar_position: 1
 単に衣装アセットのボーンがアバター素体のボーンに対して入れ子になります。
 
 :::tip[TIPS]
-`ativ:AtivSimpleWear` 以外の最適化プラグインが入れ子ボーンを自動的に結合することがあります。
+`ativ:AtivSimpleWear` は入れ子ボーンを結合しません。他の最適化プラグインが入れ子ボーンを自動的に結合することがあります。
 :::
 
 ## 役に立つ状況

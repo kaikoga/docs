@@ -4,6 +4,8 @@ sidebar_position: 10
 
 # VRChat出力
 
+<PlatformBadge id="VRChat" />
+
 Emote Wizardを用いてVRChatアバターを編集できます。
 
 - ハンドサインやExpressionメニューから制御できるアバターの表情

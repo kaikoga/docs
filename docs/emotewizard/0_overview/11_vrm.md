@@ -4,6 +4,9 @@ sidebar_position: 10
 
 # VRM出力
 
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+
 Emote Wizardを用いてVRM0.x / VRM1.0アバターの表情を編集できます。
 
 - BlendShape (VRM0)

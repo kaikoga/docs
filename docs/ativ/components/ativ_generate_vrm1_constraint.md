@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # ATiV Generate VRM1 Constraint
 
+<PlatformBadge id="UniVRM1" />
+
 アバターがVRM1向けであれば、Constraintを生成します。
 
 ## 役に立つ状況

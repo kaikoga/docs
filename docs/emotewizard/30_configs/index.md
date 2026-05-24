@@ -4,11 +4,17 @@ sidebar_position: 1
 
 # Configとは
 
+<PlatformBadge id="Mixed" />
+
 Emote Wizardの細かい挙動を制御するコンポーネントです。
-ほとんどの場合、設定を変更する必要はありません。
+ほとんどの場合、コンポーネントを追加する必要はなく、設定を変更する必要もありません。
 
 :::info[出力ゾーン]
 「出力ゾーン」は `アセットを永続化` をオフにした場合は表示されません。
+:::
+
+:::tip[TIPS]
+VRM 出力では使用しません。
 :::
 
 ## Editor Layer Wizard Config
@@ -31,7 +37,9 @@ Emote Wizardの細かい挙動を制御するコンポーネントです。
 
 - `出力アセット`: 生成されたExpression Parametersアセットがここにセットされます。
 
-## Fx Wizard Config
+## Fx Layer Wizard Config
+
+<PlatformBadge id="VRChat" />
 
 ![Inspector](img/fx_layer_wizard_config.png)
 
@@ -45,14 +53,19 @@ Emote Wizardの細かい挙動を制御するコンポーネントです。
 - `出力アセット`: 生成されたAnimator Controllerアセットがここにセットされます。
 - `Reset Clip`: 自動生成されたリセットのアニメーションがここにセットされます。編集は不要です。
 
-## Gesture Wizard Config
+## Gesture Layer Wizard Config
+
+<PlatformBadge id="VRChat" />
 
 ![Inspector](img/gesture_layer_wizard_config.png)
 
-Fx Wizard Configと初期値は異なりますが、内容は同じです。
+Fx Layer Wizard Configと初期値は異なりますが、内容は同じです。
 
-## Action Wizard Config
+
+## Action Layer Wizard Config
+
+<PlatformBadge id="VRChat" />
 
 ![Inspector](img/action_layer_wizard_config.png)
 
-Fx Wizard Configと初期値は異なりますが、内容は同じです。
+Fx Layer Wizard Configと初期値は異なりますが、内容は同じです。

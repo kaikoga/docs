@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # ATiV Overwrite VRM0+1 Meta
 
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+
 :::note[NOTE]
 このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
 :::

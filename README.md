@@ -40,7 +40,15 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-### メモ
+## メモ
+
+### 用語
+
+- プラットフォームとしてのVRChatは `VRChat` と表記し、 `VRC` と表記しないこと
+- `VRCAvatarDescriptor` や `VRCPhysBone` はその通りに表記すること
+- `VRC` は「VRChatのようなViseme/Eye Movementsを持つプラットフォーム群」（特に、VRMではない）という意味で使用する 
+
+### スクリーンショット
 
 インスペクタやヒエラルキーを単体でスクリーンショットを撮る時の幅は400
 
@@ -60,7 +68,8 @@ static void ShowLongContentWindow()
 
 VRChatに「UIを最適化」した状態で撮ること
 
-admonitions ルール
+### admonitions 
+
 :::note[NOTE]
 作業上の推奨事項ではない、全ての人が知る必要はない内容、情報
 :::

@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # ATiV Merge VRM1 SpringBones
 
+<PlatformBadge id="UniVRM1" />
+
 `univrm1:Vrm10Instance` にSpringBoneを追加登録します。
 
 このコンポーネントで追加するSpringBoneが参照するSpringBone JointやSpringBone Colliderはアバターに追加されている必要があります。

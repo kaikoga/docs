@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # ATiV Reduce VRC PhysBones
 
+<PlatformBadge id="VRChat" />
+
 :::note[NOTE]
 このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
 :::

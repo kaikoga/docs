@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # ATiV Delete Other Platform Components
 
+<PlatformBadge id="VRChat" />
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+
 :::note[NOTE]
 このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
 :::

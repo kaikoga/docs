@@ -4,6 +4,8 @@ sidebar_position: 301
 
 # Custom Action Wizard
 
+<PlatformBadge id="VRChat" />
+
 ![Inspector](img/custom_action_wizard.png)
 
 いわゆるActionエモート用の `ew:EmoteItemSource` を生成します。

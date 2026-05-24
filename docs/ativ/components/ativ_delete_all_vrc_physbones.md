@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # ATiV Delete All VRC PhysBones
 
+<PlatformBadge id="Any" />
+
 :::note[NOTE]
 このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
 :::

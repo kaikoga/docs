@@ -4,6 +4,10 @@ sidebar_position: 101
 
 # Generic Emote Sequence Source
 
+<PlatformBadge id="VRChat" />
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+
 ![Inspector](img/generic_emote_sequence_source.png)
 
 `ew:EmoteItemSource` で再生されるアニメーションを、ブレンドシェイプ名で指定します。

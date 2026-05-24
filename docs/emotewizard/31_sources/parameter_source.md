@@ -4,6 +4,8 @@ sidebar_position: 2000
 
 # Parameter Source
 
+<PlatformBadge id="VRChat" />
+
 ![Inspector](img/parameter_source.png)
 
 VRChatアバターにExpression Parameterを追加します。

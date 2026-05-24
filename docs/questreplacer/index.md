@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # QuestReplacer
 
+<PlatformBadge id="VRChat" />
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+
 ![QuestReplacer](img/quest_replacer.png)
 
 アバターに含まれるマテリアルなどのリソースの参照を置き換えパターンベースで破壊的または非破壊的に差し替えるツールです。

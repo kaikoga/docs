@@ -11,6 +11,7 @@
 
 .ucLink {
     font-weight: bold;
+    display: inline-block;
 }
 
 .ucLinkNone::before {
@@ -35,6 +36,26 @@
 
 .ucLinkUniVRM1::before {
     background-image: url("/img/ucLink/vrm-48x48.png");
+}
+
+.ucLinkCVRCCK::before {
+    background-image: url("/img/ucLink/cvr.png");
+}
+
+.ucLinkDAE::before {
+    /* background-image: url("/img/ucLink/icon.png"); */
+}
+
+.ucLinkBasis::before {
+    background-image: url("/img/ucLink/basis.png");
+}
+
+.ucLinkDB::before {
+    /* background-image: url("/img/ucLink/icon.png"); */
+}
+
+.ucLinkMC2::before {
+    /* background-image: url("/img/ucLink/icon.png"); */
 }
 
 .ucLinkMA::before {
@@ -74,6 +95,10 @@
 
 .ucLinkQR::before {
     background-image: url("/img/ucLink/QuestReplacerIcon.png");
+}
+
+.ucLinkARV::before {
+    /* background-image: url("/img/ucLink/icon.png"); */
 }
 
 .ucLinkAblet::before {

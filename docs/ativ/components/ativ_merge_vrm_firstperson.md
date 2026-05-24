@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # ATiV Merge VRM FirstPerson
 
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+
 :::note[NOTE]
 このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
 :::

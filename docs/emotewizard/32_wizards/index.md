@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Wizardとは
 
+<PlatformBadge id="Mixed" />
+
 Emote Wizardのコンポーネントを生成するコンポーネントについて説明します。
 
 :::note[NOTE]

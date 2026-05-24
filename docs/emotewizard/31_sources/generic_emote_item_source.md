@@ -4,6 +4,10 @@ sidebar_position: 100
 
 # Generic Emote Item Source
 
+<PlatformBadge id="VRChat" />
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+
 ![Inspector](img/generic_emote_item_source.png)
 
 既定の条件に連動するアニメーションをここに登録します。

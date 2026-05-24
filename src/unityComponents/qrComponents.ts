@@ -2,6 +2,11 @@ import UnityComponentItem from '@site/src/unityComponentItem';
 
 const qrComponents: UnityComponentItem[] = [
   {
+    id: "qr:QuestReplacer_",
+    displayName: "Quest Replacer",
+    link: "/questreplacer"
+  },
+  {
     id: "qr:QuestReplacer",
     displayName: "Quest Replacer",
     link: "/questreplacer/config"

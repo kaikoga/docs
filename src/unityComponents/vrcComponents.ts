@@ -1,6 +1,10 @@
 import UnityComponentItem from '@site/src/unityComponentItem';
 
-const vrcsdkComponents: UnityComponentItem[] = [
+const vrcComponents: UnityComponentItem[] = [
+  {
+    id: "vrc:VRCSDK",
+    displayName: "VRCSDK",
+  },
   {
     id: "vrc:VRCAvatarDescriptor",
     displayName: "VRC Avatar Descriptor",
@@ -26,4 +30,4 @@ const vrcsdkComponents: UnityComponentItem[] = [
   return x;
 });
 
-export default vrcsdkComponents;
+export default vrcComponents;

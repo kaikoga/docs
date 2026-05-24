@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Emote Sequence Source
 
+<PlatformBadge id="VRChat" />
+
 ![Inspector](img/emote_sequence_source.png)
 
 `ew:EmoteItemSource` で再生されるアニメーションを、Animation Clipで指定します。

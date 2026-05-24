@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Avatar Tinker Vista
 
+<PlatformBadge id="Mixed" />
+
 ![AvatarTinkerVista](img/ativ_ss.png)
 
 たまに役に立つ小さい単機能アバターツールの詰め合わせです。
@@ -16,13 +18,15 @@ GitHub: https://github.com/kaikoga/AvatarTinkerVista-Unity
   - 使えます
   - 設計を凝らず、素早くシンプルに実装されます
 - 単機能:
-  - 必須な依存性は最低限に絞ってあります。Unity単体で動く機能はVRCSDK不要で動きます
+  - マルチプラットフォーム対応で、プラットフォームへの依存は最小限です
   - フレームワークではない、単機能ツールの寄せ集めです
 - 短期サポート:
   - 長期的なサポートはありません
   - 依存ツールのアップデートで動かなくなる可能性はありますが、プロジェクトを壊すことはないようになっています
 
-## 収録コンポーネント
+## 収録ツールの使い方
+
+「Window」 → 「Avatar Tinker Vista」 からウィンドウを開いてください。
 
 「Component」 → 「Avatar Tinker Vista」 でコンポーネントを追加してください。
 
@@ -31,7 +35,3 @@ GitHub: https://github.com/kaikoga/AvatarTinkerVista-Unity
 
 非破壊編集ワークフローを有効にするには `ndmf:NDMF` または `ablet:Ablet` のいずれかが必要です。
 :::
-
-## 収録ツールの使い方
-
-「Window」 → 「Avatar Tinker Vista」 からウィンドウを開いてください。

@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # ATiV Disable ATiV Components
 
+<PlatformBadge id="Any" />
+
 このコンポーネントに刺さっている他のAvatar Tinker Vistaのコンポーネントを無効化します。
 
 ## 役に立つ状況

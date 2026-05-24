@@ -38,6 +38,8 @@ const config: Config = {
     locales: ['en', 'ja'],
   },
 
+  plugins: ["docusaurus-plugin-sass"],
+
   presets: [
     [
       'classic',

@@ -2,9 +2,21 @@
 sidebar_position: 1
 ---
 
-# ATiV Generate VRM0+1 SpringBone Collider
+# ATiV Generate Dynamics Collider
+
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+<PlatformBadge id="ChilloutVR" />
 
 `ativ:AtivGenerateDynamicsColliderGroup` にコライダーを追加します。
+
+:::info[INFO]
+`ativ:AvatarTinkerVista` バージョン2以下ではVRM専用で、 `Ativ Generate VRM0+1 SpringBone Collider` という名前でした。
+:::
+
+:::tip[TIPS]
+`ativ:AtivSelectDynamics` で、出力する揺れもののフォーマットをデフォルトから変更できます。
+:::
 
 ## 役に立つ状況
 

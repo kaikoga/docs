@@ -4,6 +4,8 @@ sidebar_position: 1000
 
 # Expression Item Source
 
+<PlatformBadge id="VRChat" />
+
 ![Inspector](img/expression_item_source.png)
 
 VRChatアバターにExpressions Menuを追加します。

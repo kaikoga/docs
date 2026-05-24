@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # ATiV Default Renderer Settings
 
+<PlatformBadge id="Unity" />
+
 :::note[NOTE]
 このコンポーネントは `ndmf:NDMF` または `ablet:Ablet` を通してのみ機能します。
 :::
@@ -15,7 +17,6 @@ sidebar_position: 1
 `ma:ModularAvatarMeshSettings` や `vrcf:AnchorOverrideFix` 、 `vrcf:BoundingBoxFix` をある程度置き換えます。
 
 VRChat想定衣装アセットを非VRChatプロジェクトで扱う際に便利です。
-
 
 ## 使い方
 

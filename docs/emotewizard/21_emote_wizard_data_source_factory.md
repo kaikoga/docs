@@ -4,6 +4,8 @@ sidebar_position: 20
 
 # Emote Wizard Data Source Factory
 
+<PlatformBadge id="Any" />
+
 ![Inspector](img/emote_wizard_data_source_factory.png)
 
 `デフォルトのData Sourceを全て生成` や `空のData Sourceを追加` で生成したオブジェクトにあらかじめ追加されているユーティリティコンポーネントです。

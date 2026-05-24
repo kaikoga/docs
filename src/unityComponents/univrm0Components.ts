@@ -27,6 +27,11 @@ const univrm0Components: UnityComponentItem[] = [
     link: ""
   },
   {
+    id: "univrm0:VRMSpringBoneColliderGroup",
+    displayName: "VRM Spring Bone Collider Group",
+    link: ""
+  },
+  {
     id: "univrm0:VRMFirstPerson",
     displayName: "VRM First Person",
     link: ""

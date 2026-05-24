@@ -2,6 +2,7 @@ import unityComponentsDef from '../../unityComponentsDef';
 import styles from './styles.module.css';
 
 // `VRCAvatarDescriptor` => <UnityComponent id="VRCAvatarDescriptor" />
+// see also src/remark/unityComponetLinks.ts
 
 export default function UnityComponent({children, id}): JSX.Element {
   const component = unityComponentsDef.find(c => c.id === id);

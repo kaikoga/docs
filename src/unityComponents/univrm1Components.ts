@@ -16,6 +16,21 @@ const univrm1Components: UnityComponentItem[] = [
     displayName: "VRM10Object",
     link: ""
   },
+  {
+    id: "univrm1:VRM10SpringBoneJoint",
+    displayName: "VRM10 Spring Bone Joint",
+    link: ""
+  },
+  {
+    id: "univrm1:VRM10SpringBoneCollider",
+    displayName: "VRM10 Spring Bone Collider",
+    link: ""
+  },
+  {
+    id: "univrm1:VRM10SpringBoneColliderGroup",
+    displayName: "VRM10 Spring Bone Collider Group",
+    link: ""
+  },
 ].map((x: any) => {
   x.classNames = ["ucLinkUniVRM1"];
   return x;

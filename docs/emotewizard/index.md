@@ -5,6 +5,11 @@ image: img/emote_wizard.png
 
 # Emote Wizard
 
+<PlatformBadge id="VRChat" />
+<PlatformBadge id="UniVRM0" />
+<PlatformBadge id="UniVRM1" />
+<PlatformBadge id="ChilloutVR" />
+
 ![Emote Wizard](img/emote_wizard.png)
 
 ## これは何？

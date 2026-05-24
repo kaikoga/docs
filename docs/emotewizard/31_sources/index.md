@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Sourceとは
 
+<PlatformBadge id="Mixed" />
+
 Emote Wizardの出力内容を追加するコンポーネントについて説明します。
 
 ## Emote Item Source系の覚え方

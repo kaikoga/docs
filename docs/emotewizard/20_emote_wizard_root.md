@@ -4,6 +4,8 @@ sidebar_position: 10
 
 # Emote Wizard Root
 
+<PlatformBadge id="Any" />
+
 ![Inspector](img/emote_wizard_root.png)
 
 ヒエラルキーを右クリック、またはメニューバーの `GameObject` → `Emote Wizard` → `Emote Wizard Root` で、ヒエラルキーに `Emote Wizard` が追加されます。

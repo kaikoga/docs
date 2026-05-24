@@ -6,6 +6,7 @@ import type {Root} from 'mdast';
 import unityComponentsDef from '../unityComponentsDef';
 
 // `VRCAvatarDescriptor` => <UnityComponent id="VRCAvatarDescriptor" />
+// see also src/components/UnityCompnent/index.tsx
 
 export default function plugin(): Transformer<Root> {
   return async (root) => {
