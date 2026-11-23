@@ -38,6 +38,12 @@ const notComponents: UnityComponentItem[] = [
     classNames: ["ucLinkNot", "ucLinkNone"]
   },
   {
+    id: "univrm:UniVRM",
+    displayName: "UniVRM",
+    link: "https://vrm.dev/univrm1/",
+    classNames: ["ucLinkNot", "ucLinkUniVRM1"]
+  },
+  {
     id: "Chillaxins",
     displayName: "Chillaxins",
     link: "https://docs.hai-vr.dev/docs/products/chillaxins",
